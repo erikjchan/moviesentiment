@@ -1,0 +1,684 @@
+{
+    "348350": {
+        "budget": 0, 
+        "cast": [
+            "Alden Ehrenreich", 
+            "Woody Harrelson", 
+            "Emilia Clarke", 
+            "Donald Glover", 
+            "Thandie Newton", 
+            "Phoebe Waller-Bridge", 
+            "Joonas Suotamo", 
+            "Paul Bettany", 
+            "Jon Favreau", 
+            "Jon Kasdan"
+        ], 
+        "duration": 135, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }
+        ], 
+        "homepage": "https://www.starwars.com/films/solo", 
+        "id": "348350", 
+        "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg", 
+        "releaseDate": "2018-05-23", 
+        "title": "Solo: A Star Wars Story"
+    }, 
+    "351286": {
+        "budget": 260000000, 
+        "cast": [
+            "Chris Pratt", 
+            "Bryce Dallas Howard", 
+            "Rafe Spall", 
+            "Toby Jones", 
+            "Justice Smith", 
+            "Daniella Pineda", 
+            "Ted Levine", 
+            "Jeff Goldblum", 
+            "James Cromwell", 
+            "BD Wong"
+        ], 
+        "duration": 124, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }
+        ], 
+        "homepage": "http://www.jurassicworld.com/", 
+        "id": "351286", 
+        "overview": "A volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar, where the creatures have freely roamed for several years after the demise of an animal theme park known as Jurassic World. Claire Dearing, the former park manager, has now founded the Dinosaur Protection Group, an organization dedicated to protecting the dinosaurs. To help with her cause, Claire has recruited Owen Grady, a former dinosaur trainer who worked at the park, to prevent the extinction of the dinosaurs once again.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg", 
+        "releaseDate": "2018-06-06", 
+        "title": "Jurassic World: Fallen Kingdom"
+    }, 
+    "381719": {
+        "budget": 50000000, 
+        "cast": [
+            "James Corden", 
+            "Rose Byrne", 
+            "Margot Robbie", 
+            "Sam Neill", 
+            "Domhnall Gleeson", 
+            "Daisy Ridley", 
+            "Elizabeth Debicki", 
+            "Sia Furler", 
+            "Felix Williamson", 
+            "Fayssal Bazzi"
+        ], 
+        "duration": 93, 
+        "genres": [
+            {
+                "id": 16, 
+                "name": "Animation"
+            }, 
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 10751, 
+                "name": "Family"
+            }
+        ], 
+        "homepage": "http://www.peterrabbit-movie.com", 
+        "id": "381719", 
+        "overview": "Peter Rabbit's feud with Mr. McGregor escalates to greater heights than ever before as they rival for the affections of the warm-hearted animal lover who lives next door.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/2yjSvEDuM3rLDng40erLsWkQRfn.jpg", 
+        "releaseDate": "2018-02-07", 
+        "title": "Peter Rabbit"
+    }, 
+    "383498": {
+        "budget": 0, 
+        "cast": [
+            "Ryan Reynolds", 
+            "Josh Brolin", 
+            "Zazie Beetz", 
+            "T.J. Miller", 
+            "Brianna Hildebrand", 
+            "Stefan Kapi\u010di\u0107", 
+            "Julian Dennison", 
+            "Morena Baccarin", 
+            "Shiori Kutsuna", 
+            "Jack Kesy"
+        ], 
+        "duration": 108, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }
+        ], 
+        "homepage": null, 
+        "id": "383498", 
+        "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/zWoFYfjEArXKjTJX6akSveGYSs3.jpg", 
+        "releaseDate": "2018-05-15", 
+        "title": "Deadpool 2"
+    }, 
+    "384680": {
+        "budget": 55000000, 
+        "cast": [
+            "Christian Bale", 
+            "Rosamund Pike", 
+            "Wes Studi", 
+            "Jesse Plemons", 
+            "Adam Beach", 
+            "Rory Cochrane", 
+            "Ben Foster", 
+            "Stephen Lang", 
+            "Timoth\u00e9e Chalamet", 
+            "Jonathan Majors"
+        ], 
+        "duration": 133, 
+        "genres": [
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 37, 
+                "name": "Western"
+            }, 
+            {
+                "id": 36, 
+                "name": "History"
+            }
+        ], 
+        "homepage": "http://hostilesmovie.com/", 
+        "id": "384680", 
+        "overview": "A legendary Native American-hating Army captain nearing retirement in 1892 is given one last assignment: to escort a Cheyenne chief and his family through dangerous territory back to his Montana reservation.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/rqoezyB51GfhiloOB5ZErg5HXas.jpg", 
+        "releaseDate": "2017-12-22", 
+        "title": "Hostiles"
+    }, 
+    "396806": {
+        "budget": 20000000, 
+        "cast": [
+            "Amanda Seyfried", 
+            "Clive Owen", 
+            "Iddo Goldberg", 
+            "Mark O'Brien", 
+            "Colm Feore", 
+            "Sonya Walger", 
+            "Joe Pingue", 
+            "Sebastian Pigott", 
+            "Rachel Roberts", 
+            "Marco Grazzini"
+        ], 
+        "duration": 100, 
+        "genres": [
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }
+        ], 
+        "homepage": "https://www.netflix.com/title/80195964", 
+        "id": "396806", 
+        "overview": "Set in a near-future world where there is no privacy, ignorance or anonymity, our private memories are recorded and crime almost ceases to exist. In trying to solve a series of unsolved murders, Sal Frieland stumbles onto a young woman who appears to have subverted the system and disappeared. She has no identity, no history and no record. Sal realizes it may not be the end of crime but the beginning. Known only as 'The Girl', Sal must find her before he becomes the next victim.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/xhBTO9n3fxy3HJt7WlR9h9vvVmk.jpg", 
+        "releaseDate": "2018-05-03", 
+        "title": "Anon"
+    }, 
+    "398181": {
+        "budget": 0, 
+        "cast": [
+            "Joaquin Phoenix", 
+            "Ekaterina Samsonov", 
+            "Alex Manette", 
+            "John Doman", 
+            "Judith Roberts", 
+            "Alessandro Nivola", 
+            "Ryan Martin Brown", 
+            "Jason Babinsky", 
+            "Frank Pando", 
+            "Jonathan Wilde"
+        ], 
+        "duration": 89, 
+        "genres": [
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }, 
+            {
+                "id": 80, 
+                "name": "Crime"
+            }
+        ], 
+        "homepage": "https://www.youwereneverreallyhere.movie/", 
+        "id": "398181", 
+        "overview": "A traumatised veteran, unafraid of violence, tracks down missing girls for a living. When a job spins out of control, Joe's nightmares overtake him as a conspiracy is uncovered leading to what may be his death trip or his awakening.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/ktPbjD6nYg5NxmeTt72Iqaw5GD0.jpg", 
+        "releaseDate": "2017-11-08", 
+        "title": "You Were Never Really Here"
+    }, 
+    "399174": {
+        "budget": 0, 
+        "cast": [
+            "Bryan Cranston", 
+            "Edward Norton", 
+            "Bill Murray", 
+            "Jeff Goldblum", 
+            "Bob Balaban", 
+            "Kunichi Nomura", 
+            "Ken Watanabe", 
+            "Greta Gerwig", 
+            "Frances McDormand", 
+            "Fisher Stevens"
+        ], 
+        "duration": 101, 
+        "genres": [
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 16, 
+                "name": "Animation"
+            }
+        ], 
+        "homepage": "http://www.isleofdogsmovie.com/", 
+        "id": "399174", 
+        "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island that's a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg", 
+        "releaseDate": "2018-03-23", 
+        "title": "Isle of Dogs"
+    }, 
+    "399796": {
+        "budget": 0, 
+        "cast": [
+            "Melissa McCarthy", 
+            "Gillian Jacobs", 
+            "Maya Rudolph", 
+            "Julie Bowen", 
+            "Jacki Weaver", 
+            "Christina Aguilera", 
+            "Debby Ryan", 
+            "Chris Parnell", 
+            "Shannon Purser", 
+            "Adria Arjona"
+        ], 
+        "duration": 105, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }
+        ], 
+        "homepage": null, 
+        "id": "399796", 
+        "overview": "Dumped by her husband, longtime housewife Deanna turns regret into reset by going back to college. Winding up at the same school as her daughter, Deanna plunges headlong into the campus experience -- embracing the fun, the freedom and the frat boys.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/A2S4p7mRt0iyClSLSldfjzdYSIp.jpg", 
+        "releaseDate": "2018-05-11", 
+        "title": "Life of the Party"
+    }, 
+    "400579": {
+        "budget": 0, 
+        "cast": [
+            "Charlize Theron", 
+            "Mackenzie Davis", 
+            "Mark Duplass", 
+            "Ron Livingston", 
+            "Colleen Wheeler", 
+            "Elaine Tan", 
+            "Maddie Dixon-Poirier", 
+            "Asher Miles Fallica", 
+            "Lia Frankland", 
+            "Bella Star Choy"
+        ], 
+        "duration": 96, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }
+        ], 
+        "homepage": "http://www.focusfeatures.com/tully", 
+        "id": "400579", 
+        "overview": "Marlo, a mother of three including a newborn, is gifted a night nanny by her brother. Hesitant to the extravagance at first, Marlo comes to form a bond with the thoughtful, surprising, and sometimes challenging nanny named Tully.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/zWoIgYCAJlXMWp7VxNLK0AVYvSR.jpg", 
+        "releaseDate": "2018-05-04", 
+        "title": "Tully"
+    }, 
+    "400617": {
+        "budget": 35000000, 
+        "cast": [
+            "Daniel Day-Lewis", 
+            "Vicky Krieps", 
+            "Lesley Manville", 
+            "Camilla Rutherford", 
+            "Gina McKee", 
+            "Brian Gleeson", 
+            "Harriet Sansom Harris", 
+            "Lujza Richter", 
+            "Julia Davis", 
+            "Nicholas Mander"
+        ], 
+        "duration": 130, 
+        "genres": [
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 10749, 
+                "name": "Romance"
+            }
+        ], 
+        "homepage": "http://focusfeatures.com/phantom-thread", 
+        "id": "400617", 
+        "overview": "In the glamour of 1950s post-war London, renowned dressmaker Reynolds Woodcock and his sister Cyril are at the center of British fashion. Women come and go through Woodcock\u2019s life, providing the confirmed bachelor with inspiration and companionship, until he comes across a young, strong-willed woman, Alma, who soon becomes a fixture in his life as his muse and lover. Once controlled and planned, he finds his carefully tailored life disrupted by love.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/yZ8j8xKk2xQ1d88hB8YG6LZfRQj.jpg", 
+        "releaseDate": "2017-12-25", 
+        "title": "Phantom Thread"
+    }, 
+    "425148": {
+        "budget": 0, 
+        "cast": [
+            "Stanley Tucci", 
+            "Natasha Lyonne", 
+            "Will Arnett", 
+            "Alan Cumming", 
+            "Gabriel Iglesias", 
+            "Shaquille O'Neal", 
+            "Ludacris", 
+            "Delia Sheppard", 
+            "Andy Beckwith", 
+            "Omar Chaparro"
+        ], 
+        "duration": null, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }
+        ], 
+        "homepage": null, 
+        "id": "425148", 
+        "overview": "Max, a macho, solitary Rottweiler police dog is ordered to go undercover as a primped show dog in a prestigious Dog Show, along with his human partner, to avert a disaster from happening.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/5LLxjWWQUW77TAeiCPW7ZpXLAec.jpg", 
+        "releaseDate": "2018-05-10", 
+        "title": "Show Dogs"
+    }, 
+    "427641": {
+        "budget": 120000000, 
+        "cast": [
+            "Dwayne Johnson", 
+            "Naomie Harris", 
+            "Malin \u00c5kerman", 
+            "Jeffrey Dean Morgan", 
+            "Jake Lacy", 
+            "Joe Manganiello", 
+            "Marley Shelton", 
+            "P. J. Byrne", 
+            "Demetrius Grosse", 
+            "Jack Quaid"
+        ], 
+        "duration": 107, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }
+        ], 
+        "homepage": "http://www.rampagethemovie.com", 
+        "id": "427641", 
+        "overview": "Primatologist Davis Okoye shares an unshakable bond with George, the extraordinarily intelligent, silverback gorilla who has been in his care since birth.  But a rogue genetic experiment gone awry mutates this gentle ape into a raging creature of enormous size.  To make matters worse, it\u2019s soon discovered there are other similarly altered animals.  As these newly created alpha predators tear across North America, destroying everything in their path, Okoye teams with a discredited genetic engineer to secure an antidote, fighting his way through an ever-changing battlefield, not only to halt a global catastrophe but to save the fearsome creature that was once his friend.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/30oXQKwibh0uANGMs0Sytw3uN22.jpg", 
+        "releaseDate": "2018-04-12", 
+        "title": "Rampage"
+    }, 
+    "429351": {
+        "budget": 0, 
+        "cast": [
+            "Chris Hemsworth", 
+            "Michael Shannon", 
+            "Michael Pe\u00f1a", 
+            "Trevante Rhodes", 
+            "Navid Negahban", 
+            "Geoff Stults", 
+            "Thad Luckinbill", 
+            "Austin Stowell", 
+            "Ben O'Toole", 
+            "Jack Kesy"
+        ], 
+        "duration": 130, 
+        "genres": [
+            {
+                "id": 10752, 
+                "name": "War"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 36, 
+                "name": "History"
+            }
+        ], 
+        "homepage": "https://12strongmovie.com", 
+        "id": "429351", 
+        "overview": "A team of CIA agents and special forces head into Afghanistan in the aftermath of the September 11th attacks in an attempt to dismantle the Taliban.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/j18021qCeRi3yUBtqd2UFj1c0RQ.jpg", 
+        "releaseDate": "2018-01-18", 
+        "title": "12 Strong"
+    }, 
+    "437557": {
+        "budget": 21000000, 
+        "cast": [
+            "Leslie Mann", 
+            "Ike Barinholtz", 
+            "John Cena", 
+            "Kathryn Newton", 
+            "Amelia Oswald", 
+            "Audrey Casson", 
+            "Anniston Almond", 
+            "Aubree McGuire", 
+            "Geraldine Viswanathan", 
+            "Anjal Jain"
+        ], 
+        "duration": 102, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }
+        ], 
+        "homepage": "https://www.blockersmovie.com/", 
+        "id": "437557", 
+        "overview": "When three parents discover their daughters\u2019 pact to lose their virginity at prom, they launch a covert one-night operation to stop the teens from sealing the deal.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/cx0LpfM6Drla8uzFfMT09uqKPRu.jpg", 
+        "releaseDate": "2018-03-30", 
+        "title": "Blockers"
+    }, 
+    "446791": {
+        "budget": 50000000, 
+        "cast": [
+            "Michelle Williams", 
+            "Christopher Plummer", 
+            "Mark Wahlberg", 
+            "Romain Duris", 
+            "Charlie Plummer", 
+            "Charlie Shotwell", 
+            "Timothy Hutton", 
+            "Andrew Buchan", 
+            "Marco Leonardi", 
+            "Giuseppe Bonifati"
+        ], 
+        "duration": 132, 
+        "genres": [
+            {
+                "id": 80, 
+                "name": "Crime"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 36, 
+                "name": "History"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }
+        ], 
+        "homepage": "https://www.allthemoney-movie.com/", 
+        "id": "446791", 
+        "overview": "The story of the kidnapping of 16-year-old John Paul Getty III and the desperate attempt by his devoted mother to convince his billionaire grandfather Jean Paul Getty to pay the ransom.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/q6nE9Hf0ezszjI4DbCxwzQ73MMy.jpg", 
+        "releaseDate": "2017-12-13", 
+        "title": "All the Money in the World"
+    }, 
+    "447332": {
+        "budget": 17000000, 
+        "cast": [
+            "Emily Blunt", 
+            "John Krasinski", 
+            "Millicent Simmonds", 
+            "Noah Jupe", 
+            "Cade Woodward", 
+            "Evangelina Cavoli", 
+            "Ezekiel Cavoli", 
+            "Leon Russom", 
+            "Doris McCarthy"
+        ], 
+        "duration": 95, 
+        "genres": [
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 27, 
+                "name": "Horror"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }
+        ], 
+        "homepage": "http://aquietplacemovie.com", 
+        "id": "447332", 
+        "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/nAU74GmpUk7t5iklEp3bufwDq4n.jpg", 
+        "releaseDate": "2018-04-05", 
+        "title": "A Quiet Place"
+    }, 
+    "454619": {
+        "budget": 12000000, 
+        "cast": [
+            "Anna Faris", 
+            "Eva Longoria", 
+            "Emily Maddison", 
+            "John Hannah", 
+            "Eugenio Derbez", 
+            "Josh Segarra", 
+            "Swoosie Kurtz", 
+            "Alyvia Alyn Lind", 
+            "Garry Chalk", 
+            "Cecilia Su\u00e1rez"
+        ], 
+        "duration": 102, 
+        "genres": [
+            {
+                "id": 10749, 
+                "name": "Romance"
+            }, 
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }
+        ], 
+        "homepage": null, 
+        "id": "454619", 
+        "overview": "A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee. A remake of the 1987 comedy.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/gaHknuun1VPPugkTsSfB8PejKVg.jpg", 
+        "releaseDate": "2018-05-03", 
+        "title": "Overboard"
+    }, 
+    "490214": {
+        "budget": 0, 
+        "cast": [
+            "Donnie Yen", 
+            "Baoqiang Wang", 
+            "Huang Sheng-Yi", 
+            "Simon Yam", 
+            "Yasuaki Kurata"
+        ], 
+        "duration": 95, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 36, 
+                "name": "History"
+            }
+        ], 
+        "homepage": null, 
+        "id": "490214", 
+        "overview": "The imperial guard and his three traitorous childhood friends ordered to hunt him down get accidentally buried and kept frozen in time. 400 years later pass and they are defrosted continuing the battle they left behind", 
+        "poster": "https://image.tmdb.org/t/p/w1280/enZENHd2gwVAw4sJKJxtJl1vJ09.jpg", 
+        "releaseDate": "2018-05-18", 
+        "title": "Iceman 2"
+    }, 
+    "501606": {
+        "budget": 0, 
+        "cast": [
+            "Prithviraj Sukumaran", 
+            "Rahman", 
+            "Isha Talwar", 
+            "Nandhu", 
+            "Shyamaprasad", 
+            "Ashwin Kumar"
+        ], 
+        "duration": null, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }
+        ], 
+        "homepage": null, 
+        "id": "501606", 
+        "overview": "The movie narrates the story of the Indian immigrant community in Detroit, where a garage mechanic gets unwillingly involved in the criminal world as a getaway driver.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/6YcgI06tyOlmyShIqXQ3fTqedId.jpg", 
+        "releaseDate": "2018-05-31", 
+        "title": "Ranam"
+    }
+}
