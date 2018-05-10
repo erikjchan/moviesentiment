@@ -39,6 +39,40 @@
         "releaseDate": "2018-03-21", 
         "title": "Pacific Rim: Uprising"
     }, 
+    "298096": {
+        "budget": 0, 
+        "cast": [
+            "Johnny Galecki", 
+            "Anna Friel", 
+            "Anjelica Huston", 
+            "Kyle Gallner", 
+            "Oliver Platt", 
+            "Kevin J. O'Connor", 
+            "Diana Bang", 
+            "Loretta Walsh"
+        ], 
+        "duration": 81, 
+        "genres": [
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 14, 
+                "name": "Fantasy"
+            }
+        ], 
+        "homepage": "http://www.thecleansefilm.com", 
+        "id": "298096", 
+        "overview": "The story of a heartbroken man who attends a spiritual retreat, only to discover that the course releases more than everyday toxins and traumatic experiences.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/4yih9FDkxsFGgLaCRY9vgIEJl45.jpg", 
+        "releaseDate": "2018-05-04", 
+        "title": "The Cleanse"
+    }, 
     "299536": {
         "budget": 300000000, 
         "cast": [
@@ -79,42 +113,6 @@
         "releaseDate": "2018-04-25", 
         "title": "Avengers: Infinity War"
     }, 
-    "300668": {
-        "budget": 40000000, 
-        "cast": [
-            "Natalie Portman", 
-            "Jennifer Jason Leigh", 
-            "Tessa Thompson", 
-            "Gina Rodriguez", 
-            "Oscar Isaac", 
-            "Tuva Novotny", 
-            "Benedict Wong", 
-            "Sonoya Mizuno", 
-            "David Gyasi", 
-            "John Schwab"
-        ], 
-        "duration": 115, 
-        "genres": [
-            {
-                "id": 9648, 
-                "name": "Mystery"
-            }, 
-            {
-                "id": 878, 
-                "name": "Science Fiction"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }
-        ], 
-        "homepage": "http://annihilationmovie.com", 
-        "id": "300668", 
-        "overview": "A biologist signs up for a dangerous, secret expedition into a mysterious zone where the laws of nature don't apply.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/d3qcpfNwbAMCNqWDHzPQsUYiUgS.jpg", 
-        "releaseDate": "2018-02-22", 
-        "title": "Annihilation"
-    }, 
     "333339": {
         "budget": 175000000, 
         "cast": [
@@ -151,257 +149,286 @@
         "releaseDate": "2018-03-28", 
         "title": "Ready Player One"
     }, 
-    "353486": {
-        "budget": 90000000, 
+    "362826": {
+        "budget": 0, 
         "cast": [
-            "Dwayne Johnson", 
-            "Jack Black", 
-            "Kevin Hart", 
-            "Karen Gillan", 
-            "Nick Jonas", 
-            "Bobby Cannavale", 
-            "Rhys Darby", 
-            "Alex Wolff", 
-            "Ser'Darius Blain", 
-            "Madison Iseman"
+            "Bel Powley", 
+            "Liv Tyler", 
+            "Collin Kelly-Sordelet", 
+            "Brad Dourif", 
+            "James Le Gros", 
+            "Troy Ruptash", 
+            "Charlotte Ubben", 
+            "Aviva Winick", 
+            "Arlo Mertz", 
+            "Mike Faist"
         ], 
-        "duration": 119, 
+        "duration": 92, 
         "genres": [
             {
-                "id": 28, 
-                "name": "Action"
+                "id": 27, 
+                "name": "Horror"
             }, 
             {
-                "id": 12, 
-                "name": "Adventure"
-            }, 
-            {
-                "id": 35, 
-                "name": "Comedy"
-            }, 
-            {
-                "id": 10751, 
-                "name": "Family"
+                "id": 14, 
+                "name": "Fantasy"
             }
         ], 
-        "homepage": "http://jumanjimovie.com", 
-        "id": "353486", 
-        "overview": "The tables are turned as four teenagers are sucked into Jumanji's world - pitted against rhinos, black mambas and an endless variety of jungle traps and puzzles. To survive, they'll play as characters from the game.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/bXrZ5iHBEjH7WMidbUDQ0U2xbmr.jpg", 
-        "releaseDate": "2017-12-09", 
-        "title": "Jumanji: Welcome to the Jungle"
+        "homepage": null, 
+        "id": "362826", 
+        "overview": "A young woman held in captivity discovers the realities of truth and lies in the outside world.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/wZQR6hKRUBqHRL4lfECFES68zGF.jpg", 
+        "releaseDate": "2018-04-13", 
+        "title": "Wildling"
     }, 
-    "381719": {
-        "budget": 50000000, 
+    "370567": {
+        "budget": 59000000, 
         "cast": [
-            "James Corden", 
-            "Rose Byrne", 
-            "Margot Robbie", 
-            "Sam Neill", 
-            "Domhnall Gleeson", 
-            "Daisy Ridley", 
-            "Elizabeth Debicki", 
-            "Sia Furler", 
-            "Felix Williamson", 
-            "Fayssal Bazzi"
+            "Johnny Depp", 
+            "Emily Blunt", 
+            "James McAvoy", 
+            "Chiwetel Ejiofor", 
+            "Mary J. Blige", 
+            "Stephen Merchant", 
+            "Michael Caine", 
+            "Dexter Fletcher", 
+            "James Hong", 
+            "Ashley Jensen"
         ], 
-        "duration": 93, 
+        "duration": 86, 
         "genres": [
+            {
+                "id": 10749, 
+                "name": "Romance"
+            }, 
             {
                 "id": 16, 
                 "name": "Animation"
             }, 
             {
-                "id": 12, 
-                "name": "Adventure"
+                "id": 35, 
+                "name": "Comedy"
             }, 
             {
                 "id": 10751, 
                 "name": "Family"
+            }, 
+            {
+                "id": 14, 
+                "name": "Fantasy"
+            }, 
+            {
+                "id": 9648, 
+                "name": "Mystery"
             }
         ], 
-        "homepage": "http://www.peterrabbit-movie.com", 
-        "id": "381719", 
-        "overview": "Peter Rabbit's feud with Mr. McGregor escalates to greater heights than ever before as they rival for the affections of the warm-hearted animal lover who lives next door.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/2yjSvEDuM3rLDng40erLsWkQRfn.jpg", 
-        "releaseDate": "2018-02-07", 
-        "title": "Peter Rabbit"
+        "homepage": "http://www.sherlockgnomes.com/", 
+        "id": "370567", 
+        "overview": "Garden gnomes, Gnomeo & Juliet, recruit renown detective, Sherlock Gnomes, to investigate the mysterious disappearance of other garden ornaments.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/xHdf2wRgCSp9MrZRryikiZIH6jB.jpg", 
+        "releaseDate": "2018-03-15", 
+        "title": "Sherlock Gnomes"
     }, 
-    "383498": {
+    "398181": {
         "budget": 0, 
         "cast": [
-            "Ryan Reynolds", 
-            "Josh Brolin", 
-            "Zazie Beetz", 
-            "T.J. Miller", 
-            "Brianna Hildebrand", 
-            "Stefan Kapi\u010di\u0107", 
-            "Julian Dennison", 
-            "Morena Baccarin", 
-            "Shiori Kutsuna", 
-            "Jack Kesy"
+            "Joaquin Phoenix", 
+            "Ekaterina Samsonov", 
+            "Alex Manette", 
+            "John Doman", 
+            "Judith Roberts", 
+            "Alessandro Nivola", 
+            "Ryan Martin Brown", 
+            "Jason Babinsky", 
+            "Frank Pando", 
+            "Jonathan Wilde"
         ], 
-        "duration": 108, 
+        "duration": 89, 
         "genres": [
             {
-                "id": 28, 
-                "name": "Action"
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }, 
+            {
+                "id": 80, 
+                "name": "Crime"
+            }
+        ], 
+        "homepage": "https://www.youwereneverreallyhere.movie/", 
+        "id": "398181", 
+        "overview": "A traumatised veteran, unafraid of violence, tracks down missing girls for a living. When a job spins out of control, Joe's nightmares overtake him as a conspiracy is uncovered leading to what may be his death trip or his awakening.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/ktPbjD6nYg5NxmeTt72Iqaw5GD0.jpg", 
+        "releaseDate": "2017-11-08", 
+        "title": "You Were Never Really Here"
+    }, 
+    "399174": {
+        "budget": 0, 
+        "cast": [
+            "Bryan Cranston", 
+            "Edward Norton", 
+            "Bill Murray", 
+            "Jeff Goldblum", 
+            "Bob Balaban", 
+            "Kunichi Nomura", 
+            "Ken Watanabe", 
+            "Greta Gerwig", 
+            "Frances McDormand", 
+            "Fisher Stevens"
+        ], 
+        "duration": 101, 
+        "genres": [
+            {
+                "id": 12, 
+                "name": "Adventure"
             }, 
             {
                 "id": 35, 
                 "name": "Comedy"
             }, 
             {
-                "id": 878, 
-                "name": "Science Fiction"
+                "id": 16, 
+                "name": "Animation"
+            }
+        ], 
+        "homepage": "http://www.isleofdogsmovie.com/", 
+        "id": "399174", 
+        "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island that's a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg", 
+        "releaseDate": "2018-03-23", 
+        "title": "Isle of Dogs"
+    }, 
+    "400579": {
+        "budget": 0, 
+        "cast": [
+            "Charlize Theron", 
+            "Mackenzie Davis", 
+            "Mark Duplass", 
+            "Ron Livingston", 
+            "Colleen Wheeler", 
+            "Elaine Tan", 
+            "Maddie Dixon-Poirier", 
+            "Asher Miles Fallica", 
+            "Lia Frankland", 
+            "Bella Star Choy"
+        ], 
+        "duration": 96, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }
+        ], 
+        "homepage": "http://www.focusfeatures.com/tully", 
+        "id": "400579", 
+        "overview": "Marlo, a mother of three including a newborn, is gifted a night nanny by her brother. Hesitant to the extravagance at first, Marlo comes to form a bond with the thoughtful, surprising, and sometimes challenging nanny named Tully.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/zWoIgYCAJlXMWp7VxNLK0AVYvSR.jpg", 
+        "releaseDate": "2018-05-04", 
+        "title": "Tully"
+    }, 
+    "419478": {
+        "budget": 0, 
+        "cast": [
+            "Bella Thorne", 
+            "Patrick Schwarzenegger", 
+            "Rob Riggle", 
+            "Quinn Shephard", 
+            "Ken Tremblett", 
+            "Jenn Griffin", 
+            "Nicholas Coombe", 
+            "Tiera Skovbye", 
+            "Paul McGillion", 
+            "Austin Obiajunwa"
+        ], 
+        "duration": 93, 
+        "genres": [
+            {
+                "id": 10749, 
+                "name": "Romance"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
             }
         ], 
         "homepage": null, 
-        "id": "383498", 
-        "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/zWoFYfjEArXKjTJX6akSveGYSs3.jpg", 
-        "releaseDate": "2018-05-15", 
-        "title": "Deadpool 2"
+        "id": "419478", 
+        "overview": "Katie, a 17-year-old, has been sheltered since childhood and confined to her house during the day by a rare disease that makes even the smallest amount of sunlight deadly. Fate intervenes when she meets Charlie and they embark on a summer romance.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/AchOrDSCMCAGiiY4QdBnNgvmWHq.jpg", 
+        "releaseDate": "2018-03-22", 
+        "title": "Midnight Sun"
     }, 
-    "396371": {
-        "budget": 30000000, 
-        "cast": [
-            "Jessica Chastain", 
-            "Idris Elba", 
-            "Kevin Costner", 
-            "Michael Cera", 
-            "Jeremy Strong", 
-            "Chris O'Dowd", 
-            "Bill Camp", 
-            "Samantha Isler", 
-            "Piper Howell", 
-            "Brian d'Arcy James"
-        ], 
-        "duration": 140, 
-        "genres": [
-            {
-                "id": 80, 
-                "name": "Crime"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }
-        ], 
-        "homepage": "http://mollysgame.movie/", 
-        "id": "396371", 
-        "overview": "Molly Bloom, a young skier and former Olympic hopeful becomes a successful entrepreneur (and a target of an FBI investigation) when she establishes a high-stakes, international poker game.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/h9hUP5ZJGsjL2wbERrGlj4dMjZq.jpg", 
-        "releaseDate": "2017-12-21", 
-        "title": "Molly's Game"
-    }, 
-    "396806": {
-        "budget": 20000000, 
-        "cast": [
-            "Amanda Seyfried", 
-            "Clive Owen", 
-            "Iddo Goldberg", 
-            "Mark O'Brien", 
-            "Colm Feore", 
-            "Sonya Walger", 
-            "Joe Pingue", 
-            "Sebastian Pigott", 
-            "Rachel Roberts", 
-            "Marco Grazzini"
-        ], 
-        "duration": 100, 
-        "genres": [
-            {
-                "id": 878, 
-                "name": "Science Fiction"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }
-        ], 
-        "homepage": "https://www.netflix.com/title/80195964", 
-        "id": "396806", 
-        "overview": "Set in a near-future world where there is no privacy, ignorance or anonymity, our private memories are recorded and crime almost ceases to exist. In trying to solve a series of unsolved murders, Sal Frieland stumbles onto a young woman who appears to have subverted the system and disappeared. She has no identity, no history and no record. Sal realizes it may not be the end of crime but the beginning. Known only as 'The Girl', Sal must find her before he becomes the next victim.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/xhBTO9n3fxy3HJt7WlR9h9vvVmk.jpg", 
-        "releaseDate": "2018-05-03", 
-        "title": "Anon"
-    }, 
-    "399035": {
+    "419743": {
         "budget": 0, 
         "cast": [
-            "Liam Neeson", 
-            "Vera Farmiga", 
-            "Patrick Wilson", 
-            "Jonathan Banks", 
-            "Sam Neill", 
-            "Elizabeth McGovern", 
-            "Killian Scott", 
-            "Shazad Latif", 
-            "Andy Nyman", 
-            "Clara Lago"
+            "Rachel Weisz", 
+            "Rachel McAdams", 
+            "Alessandro Nivola", 
+            "Cara Horgan", 
+            "Sophia Brown", 
+            "Liza Sadovy", 
+            "Omri Rose", 
+            "Anton Lesser", 
+            "Dominic Applewhite", 
+            "Bernardo Santos"
         ], 
-        "duration": 104, 
+        "duration": 114, 
         "genres": [
             {
-                "id": 28, 
-                "name": "Action"
+                "id": 18, 
+                "name": "Drama"
             }, 
             {
-                "id": 80, 
-                "name": "Crime"
+                "id": 10749, 
+                "name": "Romance"
+            }
+        ], 
+        "homepage": "https://bleeckerstreetmedia.com/disobedience", 
+        "id": "419743", 
+        "overview": "A woman learns about the death of her father. She returns to her Orthodox Jewish home and falls in love with her best childhood friend who is now married to her cousin.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/cPsa2odqNRz4WJVd4f8yZWui3iu.jpg", 
+        "releaseDate": "2018-04-27", 
+        "title": "Disobedience"
+    }, 
+    "419831": {
+        "budget": 0, 
+        "cast": [
+            "Madison Wolfe", 
+            "Zoe Saldana", 
+            "Imogen Poots", 
+            "Noel Clarke", 
+            "Ciara O'Callaghan", 
+            "Sydney Wade", 
+            "Rory Jackson"
+        ], 
+        "duration": 106, 
+        "genres": [
+            {
+                "id": 53, 
+                "name": "Thriller"
             }, 
             {
                 "id": 18, 
                 "name": "Drama"
             }, 
             {
-                "id": 9648, 
-                "name": "Mystery"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
+                "id": 14, 
+                "name": "Fantasy"
             }
         ], 
-        "homepage": "https://thecommuter.movie/", 
-        "id": "399035", 
-        "overview": "A businessman on his daily commute home gets unwittingly caught up in a criminal conspiracy that threatens not only his life but the lives of those around him.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/rDeGK6FIUfVcXmuBdEORPAGPMNg.jpg", 
-        "releaseDate": "2018-01-11", 
-        "title": "The Commuter"
-    }, 
-    "401981": {
-        "budget": 69000000, 
-        "cast": [
-            "Jennifer Lawrence", 
-            "Joel Edgerton", 
-            "Matthias Schoenaerts", 
-            "Charlotte Rampling", 
-            "Jeremy Irons", 
-            "Ciar\u00e1n Hinds", 
-            "Joely Richardson", 
-            "Mary-Louise Parker", 
-            "Bill Camp", 
-            "Douglas Hodge"
-        ], 
-        "duration": 140, 
-        "genres": [
-            {
-                "id": 9648, 
-                "name": "Mystery"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }
-        ], 
-        "homepage": "https://www.foxmovies.com/movies/red-sparrow", 
-        "id": "401981", 
-        "overview": "Prima ballerina, Dominika Egorova faces a bleak and uncertain future after she suffers an injury that ends her career. She soon turns to Sparrow School, a secret intelligence service that trains exceptional young people to use their minds and bodies as weapons. Diminika emerges as the most dangerous Sparrow after completing the sadistic training process. As she comes to terms with her new abilities, she meets a CIA agent who tries to convince her that he is the only person she can trust.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/vLCogyfQGxVLDC1gqUdNAIkc29L.jpg", 
-        "releaseDate": "2018-03-01", 
-        "title": "Red Sparrow"
+        "homepage": null, 
+        "id": "419831", 
+        "overview": "Barbara Thorson struggles through life by escaping into a fantasy life of magic and monsters.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/cvit6HDbXHE6W5kGPd47jd0wthQ.jpg", 
+        "releaseDate": "2018-03-09", 
+        "title": "I Kill Giants"
     }, 
     "427641": {
         "budget": 120000000, 
@@ -439,6 +466,42 @@
         "releaseDate": "2018-04-12", 
         "title": "Rampage"
     }, 
+    "432301": {
+        "budget": 0, 
+        "cast": [
+            "Kate Mara", 
+            "Jason Clarke", 
+            "Ed Helms", 
+            "Bruce Dern", 
+            "Jim Gaffigan", 
+            "John Fiore", 
+            "Taylor Nichols", 
+            "Lexie Roth", 
+            "Andria Blackman", 
+            "Marinko Radakovic"
+        ], 
+        "duration": 107, 
+        "genres": [
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }, 
+            {
+                "id": 36, 
+                "name": "History"
+            }
+        ], 
+        "homepage": "http://chappaquiddickmovie.com/", 
+        "id": "432301", 
+        "overview": "Ted Kennedy's life and political career become derailed in the aftermath of a fatal car accident in 1969 that claims the life of a young campaign strategist, Mary Jo Kopechne.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/eHUYOblevtR82bCYnAgS1qSNdea.jpg", 
+        "releaseDate": "2018-04-06", 
+        "title": "Chappaquiddick"
+    }, 
     "437557": {
         "budget": 21000000, 
         "cast": [
@@ -466,46 +529,6 @@
         "poster": "https://image.tmdb.org/t/p/w1280/cx0LpfM6Drla8uzFfMT09uqKPRu.jpg", 
         "releaseDate": "2018-03-30", 
         "title": "Blockers"
-    }, 
-    "445571": {
-        "budget": 37000000, 
-        "cast": [
-            "Jason Bateman", 
-            "Rachel McAdams", 
-            "Billy Magnussen", 
-            "Sharon Horgan", 
-            "Lamorne Morris", 
-            "Kylie Bunbury", 
-            "Jesse Plemons", 
-            "Michael C. Hall", 
-            "Kyle Chandler", 
-            "Danny Huston"
-        ], 
-        "duration": 100, 
-        "genres": [
-            {
-                "id": 9648, 
-                "name": "Mystery"
-            }, 
-            {
-                "id": 35, 
-                "name": "Comedy"
-            }, 
-            {
-                "id": 80, 
-                "name": "Crime"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }
-        ], 
-        "homepage": "http://www.gamenight-movie.com/", 
-        "id": "445571", 
-        "overview": "Max and Annie's weekly game night gets kicked up a notch when Max's brother Brooks arranges a murder mystery party -- complete with fake thugs and federal agents. So when Brooks gets kidnapped, it's all supposed to be part of the game. As the competitors set out to solve the case, they start to learn that neither the game nor Brooks are what they seem to be. The friends soon find themselves in over their heads as each twist leads to another unexpected turn over the course of one chaotic night.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/85R8LMyn9f2Lev2YPBF8Nughrkv.jpg", 
-        "releaseDate": "2018-02-22", 
-        "title": "Game Night"
     }, 
     "447332": {
         "budget": 17000000, 
@@ -546,77 +569,37 @@
         "releaseDate": "2018-04-05", 
         "title": "A Quiet Place"
     }, 
-    "449443": {
-        "budget": 30000000, 
+    "454619": {
+        "budget": 12000000, 
         "cast": [
-            "Gerard Butler", 
-            "Pablo Schreiber", 
-            "Dawn Olivieri", 
-            "O'Shea Jackson Jr.", 
-            "50 Cent", 
-            "Evan Jones", 
-            "Cooper Andrews", 
-            "Maurice Compte", 
-            "Kaiwi Lyman", 
-            "Mo McRae"
+            "Anna Faris", 
+            "Eva Longoria", 
+            "Emily Maddison", 
+            "John Hannah", 
+            "Eugenio Derbez", 
+            "Josh Segarra", 
+            "Swoosie Kurtz", 
+            "Alyvia Alyn Lind", 
+            "Garry Chalk", 
+            "Cecilia Su\u00e1rez"
         ], 
-        "duration": 140, 
+        "duration": 102, 
         "genres": [
             {
-                "id": 28, 
-                "name": "Action"
+                "id": 10749, 
+                "name": "Romance"
             }, 
             {
-                "id": 53, 
-                "name": "Thriller"
-            }, 
-            {
-                "id": 80, 
-                "name": "Crime"
+                "id": 35, 
+                "name": "Comedy"
             }
         ], 
-        "homepage": "http://stxfilms.com/denofthieves/", 
-        "id": "449443", 
-        "overview": "While planning a bank heist, a thief gets trapped between two sets of criminals.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/AfybH6GbGFw1F9bcETe2yu25mIE.jpg", 
-        "releaseDate": "2018-01-18", 
-        "title": "Den of Thieves"
-    }, 
-    "453201": {
-        "budget": 30000000, 
-        "cast": [
-            "Spencer Stone", 
-            "Alek Skarlatos", 
-            "Anthony Sadler", 
-            "Ray Corasani", 
-            "Jenna Fischer", 
-            "Judy Greer", 
-            "Bryce Gheisar", 
-            "Jaleel White", 
-            "Tony Hale", 
-            "P. J. Byrne"
-        ], 
-        "duration": 94, 
-        "genres": [
-            {
-                "id": 18, 
-                "name": "Drama"
-            }, 
-            {
-                "id": 36, 
-                "name": "History"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }
-        ], 
-        "homepage": "http://www.1517toparis.com/", 
-        "id": "453201", 
-        "overview": "In August 2015, an ISIS terrorist boarded train #9364 from Brussels to Paris. Armed with an AK-47 and enough ammo to kill more than 500 people, the terrorist might have succeeded except for three American friends who refused to give in to fear. One was a college student, one was a martial arts enthusiast and airman first class in the U.S. Air Force, and the other was a member of the Oregon National Guard, and all three pals proved fearless as they charged and ultimately overpowered the gunman after he emerged from a bathroom armed and ready to kill.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/qxJQ0VBCuJkJhJmuWzxI408ngwd.jpg", 
-        "releaseDate": "2018-02-02", 
-        "title": "The 15:17 to Paris"
+        "homepage": null, 
+        "id": "454619", 
+        "overview": "A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee. A remake of the 1987 comedy.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/gaHknuun1VPPugkTsSfB8PejKVg.jpg", 
+        "releaseDate": "2018-05-03", 
+        "title": "Overboard"
     }, 
     "460019": {
         "budget": 3500000, 
@@ -650,68 +633,72 @@
         "releaseDate": "2018-04-12", 
         "title": "Truth or Dare"
     }, 
-    "468202": {
-        "budget": 0, 
+    "460668": {
+        "budget": 32000000, 
         "cast": [
-            "Toni Servillo", 
-            "Alessio Boni", 
-            "Lorenzo Richelmy", 
-            "Galatea Ranzi", 
-            "Michela Cescon", 
-            "Jean Reno", 
-            "Greta Scacchi", 
-            "Jacopo Olmo Antinori", 
-            "Lucrezia Guidone", 
-            "Daniela Piazza"
+            "Amy Schumer", 
+            "Michelle Williams", 
+            "Emily Ratajkowski", 
+            "Rory Scovel", 
+            "Busy Philipps", 
+            "Aidy Bryant", 
+            "Naomi Campbell", 
+            "Tom Hopper", 
+            "Lauren Hutton", 
+            "Adrian Martinez"
         ], 
-        "duration": 128, 
+        "duration": 111, 
         "genres": [
             {
-                "id": 80, 
-                "name": "Crime"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
+                "id": 35, 
+                "name": "Comedy"
             }
         ], 
-        "homepage": null, 
-        "id": "468202", 
-        "overview": "Based on the bestselling novel by Donato Carrisi, THE GIRL IN THE FOG is a gripping and chilling thriller that brings us to a hazy mountain village where enigmatic Detective Vogel is investigating on the sudden disappearance of fifteen-year-old Anna Lou. But with the case at the heart of a media storm, the fine line between the police and criminals begins to blur and soon everyone becomes a suspect.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/eWINXglQ9JVxUuzouYK7arm9YT1.jpg", 
-        "releaseDate": "2017-10-26", 
-        "title": "The Girl in the Fog"
+        "homepage": "http://www.stxfilms.com/ifeelpretty/", 
+        "id": "460668", 
+        "overview": "A head injury causes a woman to develop an extraordinary amount of confidence and believe she's drop dead gorgeous.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/bZe6x2fKtwVDsAvZQ9fnIJznBrc.jpg", 
+        "releaseDate": "2018-04-20", 
+        "title": "I Feel Pretty"
     }, 
-    "476926": {
+    "492336": {
         "budget": 0, 
         "cast": [
-            "Sam Worthington", 
-            "Taylor Schilling", 
-            "Tom Wilkinson", 
-            "Agyness Deyn", 
-            "Nathalie Emmanuel", 
-            "Corey Johnson", 
-            "Aleksandar Jovanovi\u0107", 
-            "Steven Cree", 
-            "Diego Boneta", 
-            "Noah Jupe"
+            "Danielle Savre", 
+            "Rob Mayes", 
+            "Michael Beach", 
+            "Nathan Lynn", 
+            "Kim Syster", 
+            "Jeremy Jess Boado", 
+            "Adrian Collins", 
+            "Cameron Robertson", 
+            "Darron Meyer", 
+            "Marc Hyland"
         ], 
-        "duration": 97, 
+        "duration": 94, 
         "genres": [
             {
                 "id": 878, 
                 "name": "Science Fiction"
             }, 
             {
-                "id": 53, 
-                "name": "Thriller"
+                "id": 27, 
+                "name": "Horror"
+            }, 
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 10770, 
+                "name": "TV Movie"
             }
         ], 
-        "homepage": "https://www.netflix.com/title/80148210", 
-        "id": "476926", 
-        "overview": "On a bleak future Earth, a soldier endures a radical genetic transformation to save humanity. But his wife fears he's becoming more creature than man.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/qRmQazyIBZR4pQIk9VruiZul0Au.jpg", 
-        "releaseDate": "2018-03-30", 
-        "title": "The Titan"
+        "homepage": null, 
+        "id": "492336", 
+        "overview": "When shark conservationist Dr. Misty Calhoun is invited to consult on a top-secret project run by pharmaceutical billionaire Carl Durant, she is shocked to learn that the company is using unpredictable and highly aggressive bull sharks as its test subjects, which soon break loose and cause havoc.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/xqjAHXMJLORx9vVsCTJ6ZPJcr3D.jpg", 
+        "releaseDate": "2018-04-17", 
+        "title": "Deep Blue Sea 2"
     }
 }

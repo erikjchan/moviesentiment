@@ -3,8 +3,8 @@ import json
 import urllib3
 
 request_url = 'https://api.themoviedb.org/3/'
-now_playing_url = 'movie/now_playing?language=en-US&page=1&api_key='
-upcoming_url = 'movie/upcoming?language=en-US&page=1&api_key='
+now_playing_url = 'movie/now_playing?language=en-US&region=US&page=1&api_key='
+upcoming_url = 'movie/upcoming?language=en-US&region=US&page=1&api_key='
 genres_url = 'genre/movie/list?api_key='
 movie_id = 1
 credits_url = 'movie/{movie_id}/credits?api_key='
@@ -33,14 +33,14 @@ for res in playing_json['results']:
     credits_req = requests.get(url= request_url + 'movie/' + movie_id + '/credits?api_key=' + api_key);
     credits_json = credits_req.json()
     import time
-    time.sleep(1)
+    time.sleep(0.5)
     cast = []
     for i in range(min(10, len(credits_json['cast']))):
       cast = cast + [credits_json['cast'][i]['name']]
     movie['cast'] = cast
     now_playing_dict[movie_id] = movie
 
-with open('now_playing.json', 'w') as outfile:
+with open('scrapers/now_playing.json', 'w') as outfile:
     json.dump(now_playing_dict, outfile, sort_keys=True, indent=4)
 
 
@@ -62,18 +62,19 @@ for res in upcoming_json['results']:
     movie['genres'] = movie_details['genres']
     movie['overview'] = movie_details['overview']
     movie['homepage'] = movie_details['homepage']
-    movie['poster'] = "https://image.tmdb.org/t/p/w1280" + movie_details['poster_path']
+    if movie_details['poster_path']:
+        movie['poster'] = "https://image.tmdb.org/t/p/w1280" + movie_details['poster_path']
     movie['budget'] = movie_details['budget']
     credits_req = requests.get(url= request_url + 'movie/' + movie_id + '/credits?api_key=' + api_key);
     credits_json = credits_req.json()
     import time
-    time.sleep(1)
+    time.sleep(0.5)
     cast = []
     for i in range(min(10, len(credits_json['cast']))):
       cast = cast + [credits_json['cast'][i]['name']]
     movie['cast'] = cast
     upcoming_dict[movie_id] = movie
 
-with open('upcoming.json', 'w') as outfile:
+with open('scrapers/upcoming.json', 'w') as outfile:
     json.dump(upcoming_dict, outfile, sort_keys=True, indent=4)
 
