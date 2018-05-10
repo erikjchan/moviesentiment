@@ -10,7 +10,6 @@ db = dataset.connect(twitter_settings.CONNECTION_STRING)
 class StreamListener(tweepy.StreamListener):
 
     def on_status(self, status):
-        print("yo")
         if status.retweeted:
             return
 

@@ -1,7 +1,7 @@
-TRACK_TERMS = ["black panther"]
+TRACK_TERMS = ["infinity war"]
 CONNECTION_STRING = "sqlite:///tweets.db"
 CSV_NAME = "tweets.csv"
-TABLE_NAME = "election"
+TABLE_NAME = "movie"
 
 try:
     from private import *
