@@ -1,7 +1,6 @@
 from BeautifulSoup import BeautifulSoup
 import requests
 
-
 tomato_base_url = 'https://www.rottentomatoes.com/m/'
 tomato_url = tomato_base_url + 'black_panther_2018'
 
