@@ -1,75 +1,43 @@
 {
-    "332283": {
+    "260513": {
         "budget": 0, 
         "cast": [
-            "Elle Fanning", 
-            "Douglas Booth", 
-            "Bel Powley", 
-            "Maisie Williams", 
-            "Joanne Froggatt", 
-            "Stephen Dillane", 
-            "Tom Sturridge", 
-            "Ben Hardy", 
-            "Hugh O'Conor", 
-            "Jack Hickey"
+            "Craig T. Nelson", 
+            "Holly Hunter", 
+            "Sarah Vowell", 
+            "Samuel L. Jackson", 
+            "Brad Bird", 
+            "Huck Milner", 
+            "John Ratzenberger", 
+            "Bob Odenkirk", 
+            "Jonathan Banks", 
+            "Isabella Rossellini"
         ], 
-        "duration": 120, 
+        "duration": 126, 
         "genres": [
             {
-                "id": 18, 
-                "name": "Drama"
+                "id": 28, 
+                "name": "Action"
             }, 
             {
-                "id": 10749, 
-                "name": "Romance"
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 16, 
+                "name": "Animation"
+            }, 
+            {
+                "id": 10751, 
+                "name": "Family"
             }
         ], 
         "homepage": null, 
-        "id": "332283", 
-        "overview": "The love affair between poet Percy Shelley and 18 years old Mary Wollstonecraft, which resulted in Mary Shelley writing Frankenstein.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/AnHutc9eDDrVXvlmYFohEougTHq.jpg", 
-        "releaseDate": "2018-04-25", 
-        "title": "Mary Shelley"
-    }, 
-    "341689": {
-        "budget": 0, 
-        "cast": [
-            "Elle Fanning", 
-            "Alex Sharp", 
-            "Nicole Kidman", 
-            "Ruth Wilson", 
-            "Matt Lucas", 
-            "Stephen Campbell Moore", 
-            "Alice Sanders", 
-            "Ethan Lawrence", 
-            "Mark J. Paterson", 
-            "Elarica Gallacher"
-        ], 
-        "duration": 102, 
-        "genres": [
-            {
-                "id": 35, 
-                "name": "Comedy"
-            }, 
-            {
-                "id": 10402, 
-                "name": "Music"
-            }, 
-            {
-                "id": 10749, 
-                "name": "Romance"
-            }, 
-            {
-                "id": 878, 
-                "name": "Science Fiction"
-            }
-        ], 
-        "homepage": null, 
-        "id": "341689", 
-        "overview": "A couple of British 1970s teen-aged boys, Enn and Vic, go to a party to meet girls, only to find that the girls are very different from the boys' expectations.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/tyCt5dQ2yhfEtWcP3KqMgtFk7s0.jpg", 
-        "releaseDate": "2018-05-05", 
-        "title": "How to Talk to Girls at Parties"
+        "id": "260513", 
+        "overview": "Bob Parr (Mr. Incredible) is left to care for Jack-Jack while Helen (Elastigirl) is out saving the world.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/hL9Uz2vq93vi20oxZEBBaSs4w8U.jpg", 
+        "releaseDate": "2018-06-14", 
+        "title": "Incredibles 2"
     }, 
     "348350": {
         "budget": 0, 
@@ -107,6 +75,50 @@
         "releaseDate": "2018-05-23", 
         "title": "Solo: A Star Wars Story"
     }, 
+    "351286": {
+        "budget": 260000000, 
+        "cast": [
+            "Chris Pratt", 
+            "Bryce Dallas Howard", 
+            "Rafe Spall", 
+            "Toby Jones", 
+            "Justice Smith", 
+            "Daniella Pineda", 
+            "Ted Levine", 
+            "Jeff Goldblum", 
+            "James Cromwell", 
+            "BD Wong"
+        ], 
+        "duration": 124, 
+        "genres": [
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 12, 
+                "name": "Adventure"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }
+        ], 
+        "homepage": "http://www.jurassicworld.com/", 
+        "id": "351286", 
+        "overview": "A volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar, where the creatures have freely roamed for several years after the demise of an animal theme park known as Jurassic World. Claire Dearing, the former park manager, has now founded the Dinosaur Protection Group, an organization dedicated to protecting the dinosaurs. To help with her cause, Claire has recruited Owen Grady, a former dinosaur trainer who worked at the park, to prevent the extinction of the dinosaurs once again.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg", 
+        "releaseDate": "2018-06-06", 
+        "title": "Jurassic World: Fallen Kingdom"
+    }, 
     "383498": {
         "budget": 0, 
         "cast": [
@@ -143,33 +155,113 @@
         "releaseDate": "2018-05-15", 
         "title": "Deadpool 2"
     }, 
-    "411135": {
+    "399796": {
         "budget": 0, 
         "cast": [
-            "James Franco", 
-            "Suki Waterhouse", 
-            "Milla Jovovich", 
-            "Lucy Liu", 
-            "Jeffrey Wahlberg", 
-            "Method Man", 
-            "Snoop Dogg", 
-            "Margarita Levieva", 
-            "Scott Haze", 
-            "Ben Youcef"
+            "Melissa McCarthy", 
+            "Gillian Jacobs", 
+            "Maya Rudolph", 
+            "Julie Bowen", 
+            "Jacki Weaver", 
+            "Christina Aguilera", 
+            "Debby Ryan", 
+            "Chris Parnell", 
+            "Shannon Purser", 
+            "Adria Arjona"
+        ], 
+        "duration": 105, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }
+        ], 
+        "homepage": null, 
+        "id": "399796", 
+        "overview": "Dumped by her husband, longtime housewife Deanna turns regret into reset by going back to college. Winding up at the same school as her daughter, Deanna plunges headlong into the campus experience -- embracing the fun, the freedom and the frat boys.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/A2S4p7mRt0iyClSLSldfjzdYSIp.jpg", 
+        "releaseDate": "2018-05-11", 
+        "title": "Life of the Party"
+    }, 
+    "400535": {
+        "budget": 0, 
+        "cast": [
+            "Benicio del Toro", 
+            "Josh Brolin", 
+            "Catherine Keener", 
+            "Christopher Heyerdahl", 
+            "Jeffrey Donovan", 
+            "Isabela Moner", 
+            "Matthew Modine", 
+            "Ian Bohen", 
+            "Manuel Garcia-Rulfo", 
+            "Jake Picking"
         ], 
         "duration": null, 
         "genres": [
             {
-                "id": 878, 
-                "name": "Science Fiction"
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 80, 
+                "name": "Crime"
+            }, 
+            {
+                "id": 18, 
+                "name": "Drama"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
             }
         ], 
         "homepage": null, 
-        "id": "411135", 
-        "overview": "A young boy searches a future world wasteland for a rumored cure for his dying mother.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/iO8KeFvmRvrzpD2kvlzbhPo60dX.jpg", 
-        "releaseDate": "2018-05-25", 
-        "title": "Future World"
+        "id": "400535", 
+        "overview": "FBI agent Matt Graver teams up with operative Alejandro Gillick to prevent Mexican drug cartels from smuggling terrorists across the U.S. border.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/lhI5JJ50EPtnsMAIsTFU8y1RSke.jpg", 
+        "releaseDate": "2018-06-27", 
+        "title": "Sicario: Day of the Soldado"
+    }, 
+    "402900": {
+        "budget": 0, 
+        "cast": [
+            "Sandra Bullock", 
+            "Cate Blanchett", 
+            "Anne Hathaway", 
+            "Helena Bonham Carter", 
+            "Rihanna", 
+            "Sarah Paulson", 
+            "Mindy Kaling", 
+            "Awkwafina", 
+            "Dakota Fanning", 
+            "Damian Lewis"
+        ], 
+        "duration": null, 
+        "genres": [
+            {
+                "id": 80, 
+                "name": "Crime"
+            }, 
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }, 
+            {
+                "id": 28, 
+                "name": "Action"
+            }, 
+            {
+                "id": 53, 
+                "name": "Thriller"
+            }
+        ], 
+        "homepage": "https://www.warnerbros.com/oceans-8", 
+        "id": "402900", 
+        "overview": "Debbie Ocean, a criminal mastermind, gathers a crew of seven other female thieves to pull off the heist of the century at New York's annual Met Gala.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/7caaqQjTkovwoZsEOPzgHvkzOWB.jpg", 
+        "releaseDate": "2018-06-07", 
+        "title": "Ocean's 8"
     }, 
     "417643": {
         "budget": 0, 
@@ -198,38 +290,6 @@
         "poster": "https://image.tmdb.org/t/p/w1280/hLFm1ErciDfHpBi2vCYMkfzLwxh.jpg", 
         "releaseDate": "2018-05-25", 
         "title": "In Darkness"
-    }, 
-    "419743": {
-        "budget": 0, 
-        "cast": [
-            "Rachel Weisz", 
-            "Rachel McAdams", 
-            "Alessandro Nivola", 
-            "Cara Horgan", 
-            "Sophia Brown", 
-            "Liza Sadovy", 
-            "Omri Rose", 
-            "Anton Lesser", 
-            "Dominic Applewhite", 
-            "Bernardo Santos"
-        ], 
-        "duration": 114, 
-        "genres": [
-            {
-                "id": 18, 
-                "name": "Drama"
-            }, 
-            {
-                "id": 10749, 
-                "name": "Romance"
-            }
-        ], 
-        "homepage": "https://bleeckerstreetmedia.com/disobedience", 
-        "id": "419743", 
-        "overview": "A woman learns about the death of her father. She returns to her Orthodox Jewish home and falls in love with her best childhood friend who is now married to her cousin.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/cPsa2odqNRz4WJVd4f8yZWui3iu.jpg", 
-        "releaseDate": "2018-04-27", 
-        "title": "Disobedience"
     }, 
     "425148": {
         "budget": 0, 
@@ -311,188 +371,89 @@
         "releaseDate": "2018-03-22", 
         "title": "Action Point"
     }, 
-    "454615": {
+    "455980": {
         "budget": 0, 
         "cast": [
-            "Jean-Claude Van Damme", 
-            "Dolph Lundgren", 
-            "Patrick Kilpatrick", 
-            "John Posey", 
-            "Jasmine Waltz", 
-            "Kris Van Damme", 
-            "Tandi Tugwell", 
-            "Al Sapienza", 
-            "Lance E. Nichols", 
-            "Courtney B Turk"
-        ], 
-        "duration": 105, 
-        "genres": [
-            {
-                "id": 28, 
-                "name": "Action"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }
-        ], 
-        "homepage": null, 
-        "id": "454615", 
-        "overview": "A Deep Cover Operative Awakens to find himself imprisoned in a CIA Black Site on a Submarine.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/tIcZAB5AmRN8fIDXfDZ2aUok9qa.jpg", 
-        "releaseDate": "2018-05-18", 
-        "title": "Black Water"
-    }, 
-    "455223": {
-        "budget": 0, 
-        "cast": [
-            "Alain Moussi", 
-            "Steven Swadling"
+            "Ed Helms", 
+            "Jeremy Renner", 
+            "Jon Hamm", 
+            "Jake Johnson", 
+            "Hannibal Buress", 
+            "Annabelle Wallis", 
+            "Isla Fisher", 
+            "Rashida Jones", 
+            "Leslie Bibb", 
+            "Brian Dennehy"
         ], 
         "duration": null, 
         "genres": [
-            {
-                "id": 28, 
-                "name": "Action"
-            }
-        ], 
-        "homepage": null, 
-        "id": "455223", 
-        "overview": "The final movie in the Kickboxer trilogi about Kurt Sloane.", 
-        "releaseDate": "2018-05-18", 
-        "title": "Kickboxer: Armageddon"
-    }, 
-    "458737": {
-        "budget": 0, 
-        "cast": [
-            "Ethan Hawke", 
-            "Amanda Seyfried", 
-            "Cedric the Entertainer", 
-            "Michael Gaston", 
-            "Victoria Hill", 
-            "Philip Ettinger", 
-            "Bill Hoag", 
-            "Elanna White", 
-            "Dennis Michael Giammetta", 
-            "Mahaleia Gray"
-        ], 
-        "duration": 108, 
-        "genres": [
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }
-        ], 
-        "homepage": "https://a24films.com/films/first-reformed", 
-        "id": "458737", 
-        "overview": "Reverend Ernst Toller is a solitary, middle-aged parish pastor at a small Dutch Reform church in upstate New York on the cusp of celebrating its 250th anniversary. Once a stop on the Underground Railroad, the church is now a tourist attraction catering to a dwindling congregation, eclipsed by its nearby parent church, Abundant Life, with its state-of-the-art facilities and 5,000-strong flock. When a pregnant parishioner asks Reverend Toller to counsel her husband, a radical environmentalist, the clergyman finds himself plunged into his own tormented past, and equally despairing future, until he finds redemption in an act of grandiose violence.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/p2UylV0hPefEuWPFMo1r56vu2nb.jpg", 
-        "releaseDate": "2018-05-18", 
-        "title": "First Reformed"
-    }, 
-    "467917": {
-        "budget": 0, 
-        "cast": [
-            "Priyanka Chopra", 
-            "Claire Danes", 
-            "Ann Dowd", 
-            "Octavia Spencer", 
-            "Jim Parsons", 
-            "Amy Landecker", 
-            "Cindy Cheung", 
-            "Julia Chan", 
-            "Shaunette Ren\u00e9e Wilson", 
-            "Kelly Deadmon"
-        ], 
-        "duration": null, 
-        "genres": [
-            {
-                "id": 10751, 
-                "name": "Family"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }
-        ], 
-        "homepage": null, 
-        "id": "467917", 
-        "overview": "A NYC couple navigate the competitive world of NYC kindergarten admissions while trying to understand what is best for their son.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/7d5eHLUPFGUzPYM710B7UKaMaJi.jpg", 
-        "releaseDate": "2018-06-01", 
-        "title": "A Kid Like Jake"
-    }, 
-    "489931": {
-        "budget": 0, 
-        "cast": [
-            "Evan Peters", 
-            "Barry Keoghan", 
-            "Blake Jenner", 
-            "Jared Abrahamson", 
-            "Ann Dowd", 
-            "Udo Kier", 
-            "Gary Basaraba", 
-            "Lara Grice", 
-            "Jane McNeill", 
-            "Wayne Duvall"
-        ], 
-        "duration": 116, 
-        "genres": [
-            {
-                "id": 18, 
-                "name": "Drama"
-            }, 
-            {
-                "id": 80, 
-                "name": "Crime"
-            }
-        ], 
-        "homepage": null, 
-        "id": "489931", 
-        "overview": "The unbelievable but mostly true story of four young men who mistake their lives for a movie and attempt one of the most audacious art heists in U.S. history.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/5JZqThRxPKnoG9984t2TTW1Riqd.jpg", 
-        "releaseDate": "2018-06-01", 
-        "title": "American Animals"
-    }, 
-    "497796": {
-        "budget": 0, 
-        "cast": [
-            "Tommy Wiseau", 
-            "Greg Sestero", 
-            "Paul Scheer", 
-            "Kristen StephensonPino", 
-            "Rick Edwards", 
-            "R.J. Cantu", 
-            "Trisha Miller", 
-            "Harry Braxton Davis", 
-            "David Sestero", 
-            "George Killingsworth"
-        ], 
-        "duration": 95, 
-        "genres": [
-            {
-                "id": 28, 
-                "name": "Action"
-            }, 
             {
                 "id": 35, 
                 "name": "Comedy"
-            }, 
+            }
+        ], 
+        "homepage": "http://www.tagthemovie.com", 
+        "id": "455980", 
+        "overview": "For one month every year, five highly competitive friends hit the ground running in a no-holds-barred game of tag they\u2019ve been playing since the first grade. This year, the game coincides with the wedding of their only undefeated player, which should finally make him an easy target. But he knows they\u2019re coming...and he\u2019s ready.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/vX5cucSBIYCjmaneTswsDT9SapY.jpg", 
+        "releaseDate": "2018-06-14", 
+        "title": "Tag"
+    }, 
+    "474335": {
+        "budget": 0, 
+        "cast": [
+            "Kyrie Irving", 
+            "LilRel Howery", 
+            "Shaquille O'Neal", 
+            "Nick Kroll", 
+            "Tiffany Haddish", 
+            "Chris Webber", 
+            "Reggie Miller", 
+            "Nate Robinson", 
+            "Lisa Leslie", 
+            "Erica Ash"
+        ], 
+        "duration": null, 
+        "genres": [
+            {
+                "id": 35, 
+                "name": "Comedy"
+            }
+        ], 
+        "homepage": null, 
+        "id": "474335", 
+        "overview": "Uncle Drew recruits a squad of older basketball players to return to the court to compete in a tournament.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/cDjAlFbpvjuxH4gFD02fqlyk6qL.jpg", 
+        "releaseDate": "2018-06-29", 
+        "title": "Uncle Drew"
+    }, 
+    "497814": {
+        "budget": 0, 
+        "cast": [
+            "Gabrielle Union", 
+            "Billy Burke", 
+            "Richard Cabral", 
+            "Ajiona Alexus", 
+            "Levi Meaden", 
+            "Seth Carr", 
+            "Mark Furze", 
+            "Jason George", 
+            "Christa Miller", 
+            "Damien Leake"
+        ], 
+        "duration": 98, 
+        "genres": [
             {
                 "id": 53, 
                 "name": "Thriller"
             }
         ], 
-        "homepage": "https://www.bf-movie.com/", 
-        "id": "497796", 
-        "overview": "Immediately following the events of Vol. 1, Jon is on the run with his girlfriend with Harvey in hot pursuit to reclaim his money.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/9Riyi0iOSfbgo8KJs0a7ho1TnSK.jpg", 
-        "releaseDate": "2018-06-01", 
-        "title": "Best F(r)iends: Volume Two"
+        "homepage": null, 
+        "id": "497814", 
+        "overview": "A woman fights to protect her family during a home invasion at a house designed with impenetrable security.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/bKH7H4f5LPBQ5KOmHPcYtxCo7Od.jpg", 
+        "releaseDate": "2018-05-05", 
+        "title": "Breaking In"
     }, 
     "502682": {
         "budget": 0, 
@@ -525,77 +486,5 @@
         "poster": "https://image.tmdb.org/t/p/w1280/zHGf3PWSqwt3X1UEIO2ythLwvKO.jpg", 
         "releaseDate": "2018-05-18", 
         "title": "Book Club"
-    }, 
-    "505205": {
-        "budget": 0, 
-        "cast": [
-            "Pope Francis"
-        ], 
-        "duration": null, 
-        "genres": [
-            {
-                "id": 99, 
-                "name": "Documentary"
-            }
-        ], 
-        "homepage": "http://focusfeatures.com/pope-francis-a-man-of-his-word", 
-        "id": "505205", 
-        "overview": "Pope Francis responds to questions from around the world, discussing topics including ecology, immigration, consumerism and social justice.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/lH1QleR9NzzVouL4gp76CRnu9I6.jpg", 
-        "releaseDate": "2018-05-18", 
-        "title": "Pope Francis: A Man of His Word"
-    }, 
-    "513297": {
-        "budget": 0, 
-        "cast": [
-            "Jason K Wixom", 
-            "Tua Kealoha", 
-            "Kannika Coley", 
-            "Cici Chambers", 
-            "Savannah Meyer", 
-            "Jake Tase", 
-            "Damarr Jones", 
-            "Lacie Nicole James", 
-            "Chapell Griggs"
-        ], 
-        "duration": 92, 
-        "genres": [
-            {
-                "id": 27, 
-                "name": "Horror"
-            }
-        ], 
-        "homepage": null, 
-        "id": "513297", 
-        "overview": "Increased level of fear, six colliding stories, one roller coaster ride of emotions and terror. What would you do if you caught your significant other in the act or was face to face with your abductors? With twists and turns at every corner you will have the ride of your life on this journey. A journey where you will be dying to find out the unknown. Where curiosity kills the cat and a seductive mistake can be your last. What level are you?", 
-        "poster": "https://image.tmdb.org/t/p/w1280/oj7gQO0Aw6G8F3JeEidT0Ina86i.jpg", 
-        "releaseDate": "2018-05-25", 
-        "title": "Fear Level"
-    }, 
-    "519956": {
-        "budget": 0, 
-        "cast": [
-            "Alex Pettyfer", 
-            "Robert Wi\u0119ckiewicz", 
-            "Talulah Riley", 
-            "Michael Gambon"
-        ], 
-        "duration": null, 
-        "genres": [
-            {
-                "id": 36, 
-                "name": "History"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }
-        ], 
-        "homepage": null, 
-        "id": "519956", 
-        "overview": "An ambitious young journalist uncovers the horrific slaughter of 22,000 Polish officers during World War II, a secret kept hidden for far too many years.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/70QZUEGN2fCZVVDR09RzBvdlGtK.jpg", 
-        "releaseDate": "2018-05-29", 
-        "title": "The Last Witness"
     }
 }

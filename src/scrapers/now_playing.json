@@ -39,39 +39,45 @@
         "releaseDate": "2018-03-21", 
         "title": "Pacific Rim: Uprising"
     }, 
-    "298096": {
-        "budget": 0, 
+    "284054": {
+        "budget": 200000000, 
         "cast": [
-            "Johnny Galecki", 
-            "Anna Friel", 
-            "Anjelica Huston", 
-            "Kyle Gallner", 
-            "Oliver Platt", 
-            "Kevin J. O'Connor", 
-            "Diana Bang", 
-            "Loretta Walsh"
+            "Chadwick Boseman", 
+            "Michael B. Jordan", 
+            "Lupita Nyong'o", 
+            "Danai Gurira", 
+            "Martin Freeman", 
+            "Daniel Kaluuya", 
+            "Letitia Wright", 
+            "Winston Duke", 
+            "Angela Bassett", 
+            "Forest Whitaker"
         ], 
-        "duration": 81, 
+        "duration": 134, 
         "genres": [
             {
-                "id": 18, 
-                "name": "Drama"
+                "id": 28, 
+                "name": "Action"
             }, 
             {
-                "id": 35, 
-                "name": "Comedy"
+                "id": 12, 
+                "name": "Adventure"
             }, 
             {
                 "id": 14, 
                 "name": "Fantasy"
+            }, 
+            {
+                "id": 878, 
+                "name": "Science Fiction"
             }
         ], 
-        "homepage": "http://www.thecleansefilm.com", 
-        "id": "298096", 
-        "overview": "The story of a heartbroken man who attends a spiritual retreat, only to discover that the course releases more than everyday toxins and traumatic experiences.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/4yih9FDkxsFGgLaCRY9vgIEJl45.jpg", 
-        "releaseDate": "2018-05-04", 
-        "title": "The Cleanse"
+        "homepage": "https://marvel.com/movies/movie/224/black_panther", 
+        "id": "284054", 
+        "overview": "King T'Challa returns home from America to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantel to join with girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/uxzzxijgPIY7slzFvMotPv8wjKA.jpg", 
+        "releaseDate": "2018-02-13", 
+        "title": "Black Panther"
     }, 
     "299536": {
         "budget": 300000000, 
@@ -149,38 +155,6 @@
         "releaseDate": "2018-03-28", 
         "title": "Ready Player One"
     }, 
-    "362826": {
-        "budget": 0, 
-        "cast": [
-            "Bel Powley", 
-            "Liv Tyler", 
-            "Collin Kelly-Sordelet", 
-            "Brad Dourif", 
-            "James Le Gros", 
-            "Troy Ruptash", 
-            "Charlotte Ubben", 
-            "Aviva Winick", 
-            "Arlo Mertz", 
-            "Mike Faist"
-        ], 
-        "duration": 92, 
-        "genres": [
-            {
-                "id": 27, 
-                "name": "Horror"
-            }, 
-            {
-                "id": 14, 
-                "name": "Fantasy"
-            }
-        ], 
-        "homepage": null, 
-        "id": "362826", 
-        "overview": "A young woman held in captivity discovers the realities of truth and lies in the outside world.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/wZQR6hKRUBqHRL4lfECFES68zGF.jpg", 
-        "releaseDate": "2018-04-13", 
-        "title": "Wildling"
-    }, 
     "370567": {
         "budget": 59000000, 
         "cast": [
@@ -228,42 +202,6 @@
         "poster": "https://image.tmdb.org/t/p/w1280/xHdf2wRgCSp9MrZRryikiZIH6jB.jpg", 
         "releaseDate": "2018-03-15", 
         "title": "Sherlock Gnomes"
-    }, 
-    "398181": {
-        "budget": 0, 
-        "cast": [
-            "Joaquin Phoenix", 
-            "Ekaterina Samsonov", 
-            "Alex Manette", 
-            "John Doman", 
-            "Judith Roberts", 
-            "Alessandro Nivola", 
-            "Ryan Martin Brown", 
-            "Jason Babinsky", 
-            "Frank Pando", 
-            "Jonathan Wilde"
-        ], 
-        "duration": 89, 
-        "genres": [
-            {
-                "id": 18, 
-                "name": "Drama"
-            }, 
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }, 
-            {
-                "id": 80, 
-                "name": "Crime"
-            }
-        ], 
-        "homepage": "https://www.youwereneverreallyhere.movie/", 
-        "id": "398181", 
-        "overview": "A traumatised veteran, unafraid of violence, tracks down missing girls for a living. When a job spins out of control, Joe's nightmares overtake him as a conspiracy is uncovered leading to what may be his death trip or his awakening.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/ktPbjD6nYg5NxmeTt72Iqaw5GD0.jpg", 
-        "releaseDate": "2017-11-08", 
-        "title": "You Were Never Really Here"
     }, 
     "399174": {
         "budget": 0, 
@@ -364,71 +302,6 @@
         "poster": "https://image.tmdb.org/t/p/w1280/AchOrDSCMCAGiiY4QdBnNgvmWHq.jpg", 
         "releaseDate": "2018-03-22", 
         "title": "Midnight Sun"
-    }, 
-    "419743": {
-        "budget": 0, 
-        "cast": [
-            "Rachel Weisz", 
-            "Rachel McAdams", 
-            "Alessandro Nivola", 
-            "Cara Horgan", 
-            "Sophia Brown", 
-            "Liza Sadovy", 
-            "Omri Rose", 
-            "Anton Lesser", 
-            "Dominic Applewhite", 
-            "Bernardo Santos"
-        ], 
-        "duration": 114, 
-        "genres": [
-            {
-                "id": 18, 
-                "name": "Drama"
-            }, 
-            {
-                "id": 10749, 
-                "name": "Romance"
-            }
-        ], 
-        "homepage": "https://bleeckerstreetmedia.com/disobedience", 
-        "id": "419743", 
-        "overview": "A woman learns about the death of her father. She returns to her Orthodox Jewish home and falls in love with her best childhood friend who is now married to her cousin.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/cPsa2odqNRz4WJVd4f8yZWui3iu.jpg", 
-        "releaseDate": "2018-04-27", 
-        "title": "Disobedience"
-    }, 
-    "419831": {
-        "budget": 0, 
-        "cast": [
-            "Madison Wolfe", 
-            "Zoe Saldana", 
-            "Imogen Poots", 
-            "Noel Clarke", 
-            "Ciara O'Callaghan", 
-            "Sydney Wade", 
-            "Rory Jackson"
-        ], 
-        "duration": 106, 
-        "genres": [
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }, 
-            {
-                "id": 14, 
-                "name": "Fantasy"
-            }
-        ], 
-        "homepage": null, 
-        "id": "419831", 
-        "overview": "Barbara Thorson struggles through life by escaping into a fantasy life of magic and monsters.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/cvit6HDbXHE6W5kGPd47jd0wthQ.jpg", 
-        "releaseDate": "2018-03-09", 
-        "title": "I Kill Giants"
     }, 
     "427641": {
         "budget": 120000000, 
@@ -660,45 +533,5 @@
         "poster": "https://image.tmdb.org/t/p/w1280/bZe6x2fKtwVDsAvZQ9fnIJznBrc.jpg", 
         "releaseDate": "2018-04-20", 
         "title": "I Feel Pretty"
-    }, 
-    "492336": {
-        "budget": 0, 
-        "cast": [
-            "Danielle Savre", 
-            "Rob Mayes", 
-            "Michael Beach", 
-            "Nathan Lynn", 
-            "Kim Syster", 
-            "Jeremy Jess Boado", 
-            "Adrian Collins", 
-            "Cameron Robertson", 
-            "Darron Meyer", 
-            "Marc Hyland"
-        ], 
-        "duration": 94, 
-        "genres": [
-            {
-                "id": 878, 
-                "name": "Science Fiction"
-            }, 
-            {
-                "id": 27, 
-                "name": "Horror"
-            }, 
-            {
-                "id": 28, 
-                "name": "Action"
-            }, 
-            {
-                "id": 10770, 
-                "name": "TV Movie"
-            }
-        ], 
-        "homepage": null, 
-        "id": "492336", 
-        "overview": "When shark conservationist Dr. Misty Calhoun is invited to consult on a top-secret project run by pharmaceutical billionaire Carl Durant, she is shocked to learn that the company is using unpredictable and highly aggressive bull sharks as its test subjects, which soon break loose and cause havoc.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/xqjAHXMJLORx9vVsCTJ6ZPJcr3D.jpg", 
-        "releaseDate": "2018-04-17", 
-        "title": "Deep Blue Sea 2"
     }
 }

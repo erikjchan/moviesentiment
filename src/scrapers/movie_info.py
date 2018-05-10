@@ -3,22 +3,19 @@ import json
 import urllib3
 
 request_url = 'https://api.themoviedb.org/3/'
-now_playing_url = 'movie/now_playing?language=en-US&region=US&page=1&api_key='
-upcoming_url = 'movie/upcoming?language=en-US&region=US&page=1&api_key='
 genres_url = 'genre/movie/list?api_key='
 movie_id = 1
 credits_url = 'movie/{movie_id}/credits?api_key='
 details_url = 'movie/{movie_id}?api_key='
 api_key = '06709af3621440ead23fb1f3e554ee3d'
 
-# Collect information from top 20 playing movies
+# Collect information from top 15 playing movies
 now_playing_dict = dict()
-now_playing_req = requests.get(url= request_url + now_playing_url + api_key);
-playing_json = now_playing_req.json()
+now_playing_ids = [268896, 284054, 299536, 333339, 370567, 399174, 400579, 419478, 427641, 432301, 437557, 447332, 454619, 460019, 460668]
 
-for res in playing_json['results']:
+for now_playing_id in now_playing_ids:
     movie = dict()
-    movie_id = str(res['id'])
+    movie_id = str(now_playing_id)
     movie_details_req = requests.get(url= request_url + 'movie/' + movie_id + '?api_key=' + api_key)
     movie_details = movie_details_req.json()
     movie['id'] = movie_id
@@ -45,14 +42,13 @@ with open('scrapers/now_playing.json', 'w') as outfile:
 
 
 
-# Collect information from top 20 upcoming movies
+# Collect information from top 15 upcoming movies
 upcoming_dict = dict()
-upcoming_req = requests.get(url= request_url + upcoming_url + api_key);
-upcoming_json = upcoming_req.json()
+upcoming_ids = [260513, 348350, 351286, 383498, 399796, 400535, 402900, 417643, 425148, 429300, 454283, 455980, 474335, 497814, 502682]
 
-for res in upcoming_json['results']:
+for upcoming_id in upcoming_ids:
     movie = dict()
-    movie_id = str(res['id'])
+    movie_id = str(upcoming_id)
     movie_details_req = requests.get(url= request_url + 'movie/' + movie_id + '?api_key=' + api_key)
     movie_details = movie_details_req.json()
     movie['id'] = movie_id
