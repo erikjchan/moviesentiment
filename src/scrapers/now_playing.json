@@ -33,10 +33,13 @@
             }
         ], 
         "homepage": "http://pacificrimmovie.com", 
-        "id": "268896", 
+        "id": 268896, 
         "overview": "It has been ten years since The Battle of the Breach and the oceans are still, but restless. Vindicated by the victory at the Breach, the Jaeger program has evolved into the most powerful global defense force in human history. The PPDC now calls upon the best and brightest to rise up and become the next generation of heroes when the Kaiju threat returns.", 
         "poster": "https://image.tmdb.org/t/p/w1280/v5HlmJK9bdeHxN2QhaFP1ivjX3U.jpg", 
+        "projected_opening": 25000000, 
+        "projected_total": 61000000, 
         "releaseDate": "2018-03-21", 
+        "rt_score": 43, 
         "title": "Pacific Rim: Uprising"
     }, 
     "284054": {
@@ -73,10 +76,13 @@
             }
         ], 
         "homepage": "https://marvel.com/movies/movie/224/black_panther", 
-        "id": "284054", 
+        "id": 284054, 
         "overview": "King T'Challa returns home from America to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantel to join with girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.", 
         "poster": "https://image.tmdb.org/t/p/w1280/uxzzxijgPIY7slzFvMotPv8wjKA.jpg", 
+        "projected_opening": 140000000, 
+        "projected_total": 400000000, 
         "releaseDate": "2018-02-13", 
+        "rt_score": 96, 
         "title": "Black Panther"
     }, 
     "299536": {
@@ -113,10 +119,13 @@
             }
         ], 
         "homepage": "http://marvel.com/movies/movie/223/avengers_infinity_war_part_1", 
-        "id": "299536", 
+        "id": 299536, 
         "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.", 
         "poster": "https://image.tmdb.org/t/p/w1280/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", 
+        "projected_opening": 235000000, 
+        "projected_total": 600000000, 
         "releaseDate": "2018-04-25", 
+        "rt_score": 84, 
         "title": "Avengers: Infinity War"
     }, 
     "333339": {
@@ -149,10 +158,13 @@
             }
         ], 
         "homepage": "http://readyplayeronemovie.com", 
-        "id": "333339", 
+        "id": 333339, 
         "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.", 
         "poster": "https://image.tmdb.org/t/p/w1280/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg", 
+        "projected_opening": 37000000, 
+        "projected_total": 120000000, 
         "releaseDate": "2018-03-28", 
+        "rt_score": 74, 
         "title": "Ready Player One"
     }, 
     "370567": {
@@ -197,79 +209,14 @@
             }
         ], 
         "homepage": "http://www.sherlockgnomes.com/", 
-        "id": "370567", 
+        "id": 370567, 
         "overview": "Garden gnomes, Gnomeo & Juliet, recruit renown detective, Sherlock Gnomes, to investigate the mysterious disappearance of other garden ornaments.", 
         "poster": "https://image.tmdb.org/t/p/w1280/xHdf2wRgCSp9MrZRryikiZIH6jB.jpg", 
+        "projected_opening": 16000000, 
+        "projected_total": 58000000, 
         "releaseDate": "2018-03-15", 
+        "rt_score": 23, 
         "title": "Sherlock Gnomes"
-    }, 
-    "399174": {
-        "budget": 0, 
-        "cast": [
-            "Bryan Cranston", 
-            "Edward Norton", 
-            "Bill Murray", 
-            "Jeff Goldblum", 
-            "Bob Balaban", 
-            "Kunichi Nomura", 
-            "Ken Watanabe", 
-            "Greta Gerwig", 
-            "Frances McDormand", 
-            "Fisher Stevens"
-        ], 
-        "duration": 101, 
-        "genres": [
-            {
-                "id": 12, 
-                "name": "Adventure"
-            }, 
-            {
-                "id": 35, 
-                "name": "Comedy"
-            }, 
-            {
-                "id": 16, 
-                "name": "Animation"
-            }
-        ], 
-        "homepage": "http://www.isleofdogsmovie.com/", 
-        "id": "399174", 
-        "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island that's a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg", 
-        "releaseDate": "2018-03-23", 
-        "title": "Isle of Dogs"
-    }, 
-    "400579": {
-        "budget": 0, 
-        "cast": [
-            "Charlize Theron", 
-            "Mackenzie Davis", 
-            "Mark Duplass", 
-            "Ron Livingston", 
-            "Colleen Wheeler", 
-            "Elaine Tan", 
-            "Maddie Dixon-Poirier", 
-            "Asher Miles Fallica", 
-            "Lia Frankland", 
-            "Bella Star Choy"
-        ], 
-        "duration": 96, 
-        "genres": [
-            {
-                "id": 35, 
-                "name": "Comedy"
-            }, 
-            {
-                "id": 18, 
-                "name": "Drama"
-            }
-        ], 
-        "homepage": "http://www.focusfeatures.com/tully", 
-        "id": "400579", 
-        "overview": "Marlo, a mother of three including a newborn, is gifted a night nanny by her brother. Hesitant to the extravagance at first, Marlo comes to form a bond with the thoughtful, surprising, and sometimes challenging nanny named Tully.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/zWoIgYCAJlXMWp7VxNLK0AVYvSR.jpg", 
-        "releaseDate": "2018-05-04", 
-        "title": "Tully"
     }, 
     "419478": {
         "budget": 0, 
@@ -297,10 +244,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "419478", 
+        "id": 419478, 
         "overview": "Katie, a 17-year-old, has been sheltered since childhood and confined to her house during the day by a rare disease that makes even the smallest amount of sunlight deadly. Fate intervenes when she meets Charlie and they embark on a summer romance.", 
         "poster": "https://image.tmdb.org/t/p/w1280/AchOrDSCMCAGiiY4QdBnNgvmWHq.jpg", 
+        "projected_opening": 3750000, 
+        "projected_total": 9400000, 
         "releaseDate": "2018-03-22", 
+        "rt_score": 17, 
         "title": "Midnight Sun"
     }, 
     "427641": {
@@ -333,10 +283,13 @@
             }
         ], 
         "homepage": "http://www.rampagethemovie.com", 
-        "id": "427641", 
+        "id": 427641, 
         "overview": "Primatologist Davis Okoye shares an unshakable bond with George, the extraordinarily intelligent, silverback gorilla who has been in his care since birth.  But a rogue genetic experiment gone awry mutates this gentle ape into a raging creature of enormous size.  To make matters worse, it\u2019s soon discovered there are other similarly altered animals.  As these newly created alpha predators tear across North America, destroying everything in their path, Okoye teams with a discredited genetic engineer to secure an antidote, fighting his way through an ever-changing battlefield, not only to halt a global catastrophe but to save the fearsome creature that was once his friend.", 
         "poster": "https://image.tmdb.org/t/p/w1280/30oXQKwibh0uANGMs0Sytw3uN22.jpg", 
+        "projected_opening": 37000000, 
+        "projected_total": 85000000, 
         "releaseDate": "2018-04-12", 
+        "rt_score": 51, 
         "title": "Rampage"
     }, 
     "432301": {
@@ -369,10 +322,13 @@
             }
         ], 
         "homepage": "http://chappaquiddickmovie.com/", 
-        "id": "432301", 
+        "id": 432301, 
         "overview": "Ted Kennedy's life and political career become derailed in the aftermath of a fatal car accident in 1969 that claims the life of a young campaign strategist, Mary Jo Kopechne.", 
         "poster": "https://image.tmdb.org/t/p/w1280/eHUYOblevtR82bCYnAgS1qSNdea.jpg", 
+        "projected_opening": 3500000, 
+        "projected_total": 7000000, 
         "releaseDate": "2018-04-06", 
+        "rt_score": 79, 
         "title": "Chappaquiddick"
     }, 
     "437557": {
@@ -397,10 +353,13 @@
             }
         ], 
         "homepage": "https://www.blockersmovie.com/", 
-        "id": "437557", 
+        "id": 437557, 
         "overview": "When three parents discover their daughters\u2019 pact to lose their virginity at prom, they launch a covert one-night operation to stop the teens from sealing the deal.", 
         "poster": "https://image.tmdb.org/t/p/w1280/cx0LpfM6Drla8uzFfMT09uqKPRu.jpg", 
+        "projected_opening": 16000000, 
+        "projected_total": 54000000, 
         "releaseDate": "2018-03-30", 
+        "rt_score": 83, 
         "title": "Blockers"
     }, 
     "447332": {
@@ -436,10 +395,13 @@
             }
         ], 
         "homepage": "http://aquietplacemovie.com", 
-        "id": "447332", 
+        "id": 447332, 
         "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.", 
         "poster": "https://image.tmdb.org/t/p/w1280/nAU74GmpUk7t5iklEp3bufwDq4n.jpg", 
+        "projected_opening": 27500000, 
+        "projected_total": 81000000, 
         "releaseDate": "2018-04-05", 
+        "rt_score": 95, 
         "title": "A Quiet Place"
     }, 
     "454619": {
@@ -468,10 +430,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "454619", 
+        "id": 454619, 
         "overview": "A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee. A remake of the 1987 comedy.", 
         "poster": "https://image.tmdb.org/t/p/w1280/gaHknuun1VPPugkTsSfB8PejKVg.jpg", 
+        "projected_opening": 14000000, 
+        "projected_total": 39000000, 
         "releaseDate": "2018-05-03", 
+        "rt_score": 30, 
         "title": "Overboard"
     }, 
     "460019": {
@@ -500,10 +465,13 @@
             }
         ], 
         "homepage": "http://www.blumhousestruthordare.com", 
-        "id": "460019", 
+        "id": 460019, 
         "overview": "A harmless game of \u201cTruth or Dare\u201d among friends turns deadly when someone\u2014or something\u2014begins to punish those who tell a lie\u2014or refuse the dare.", 
         "poster": "https://image.tmdb.org/t/p/w1280/zbvziwnZa91AJD78Si0hUb5JP5X.jpg", 
+        "projected_opening": 14000000, 
+        "projected_total": 28000000, 
         "releaseDate": "2018-04-12", 
+        "rt_score": 15, 
         "title": "Truth or Dare"
     }, 
     "460668": {
@@ -528,10 +496,13 @@
             }
         ], 
         "homepage": "http://www.stxfilms.com/ifeelpretty/", 
-        "id": "460668", 
+        "id": 460668, 
         "overview": "A head injury causes a woman to develop an extraordinary amount of confidence and believe she's drop dead gorgeous.", 
         "poster": "https://image.tmdb.org/t/p/w1280/bZe6x2fKtwVDsAvZQ9fnIJznBrc.jpg", 
+        "projected_opening": 17000000, 
+        "projected_total": 57000000, 
         "releaseDate": "2018-04-20", 
+        "rt_score": 33, 
         "title": "I Feel Pretty"
     }
 }

@@ -33,10 +33,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "260513", 
+        "id": 260513, 
         "overview": "Bob Parr (Mr. Incredible) is left to care for Jack-Jack while Helen (Elastigirl) is out saving the world.", 
         "poster": "https://image.tmdb.org/t/p/w1280/hL9Uz2vq93vi20oxZEBBaSs4w8U.jpg", 
+        "projected_opening": 110000000, 
+        "projected_total": 395000000, 
         "releaseDate": "2018-06-14", 
+        "rt_score": null, 
         "title": "Incredibles 2"
     }, 
     "348350": {
@@ -69,10 +72,13 @@
             }
         ], 
         "homepage": "https://www.starwars.com/films/solo", 
-        "id": "348350", 
+        "id": 348350, 
         "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.", 
         "poster": "https://image.tmdb.org/t/p/w1280/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg", 
-        "releaseDate": "2018-05-23", 
+        "projected_opening": 142000000, 
+        "projected_total": 390000000, 
+        "releaseDate": "2018-05-24", 
+        "rt_score": null, 
         "title": "Solo: A Star Wars Story"
     }, 
     "351286": {
@@ -113,10 +119,13 @@
             }
         ], 
         "homepage": "http://www.jurassicworld.com/", 
-        "id": "351286", 
+        "id": 351286, 
         "overview": "A volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar, where the creatures have freely roamed for several years after the demise of an animal theme park known as Jurassic World. Claire Dearing, the former park manager, has now founded the Dinosaur Protection Group, an organization dedicated to protecting the dinosaurs. To help with her cause, Claire has recruited Owen Grady, a former dinosaur trainer who worked at the park, to prevent the extinction of the dinosaurs once again.", 
         "poster": "https://image.tmdb.org/t/p/w1280/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg", 
+        "projected_opening": 135000000, 
+        "projected_total": 340000000, 
         "releaseDate": "2018-06-06", 
+        "rt_score": null, 
         "title": "Jurassic World: Fallen Kingdom"
     }, 
     "383498": {
@@ -149,10 +158,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "383498", 
+        "id": 383498, 
         "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.", 
         "poster": "https://image.tmdb.org/t/p/w1280/zWoFYfjEArXKjTJX6akSveGYSs3.jpg", 
+        "projected_opening": 130000000, 
+        "projected_total": 312000000, 
         "releaseDate": "2018-05-15", 
+        "rt_score": null, 
         "title": "Deadpool 2"
     }, 
     "399796": {
@@ -177,10 +189,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "399796", 
+        "id": 399796, 
         "overview": "Dumped by her husband, longtime housewife Deanna turns regret into reset by going back to college. Winding up at the same school as her daughter, Deanna plunges headlong into the campus experience -- embracing the fun, the freedom and the frat boys.", 
         "poster": "https://image.tmdb.org/t/p/w1280/A2S4p7mRt0iyClSLSldfjzdYSIp.jpg", 
+        "projected_opening": 21000000, 
+        "projected_total": 54000000, 
         "releaseDate": "2018-05-11", 
+        "rt_score": 35, 
         "title": "Life of the Party"
     }, 
     "400535": {
@@ -217,10 +232,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "400535", 
+        "id": 400535, 
         "overview": "FBI agent Matt Graver teams up with operative Alejandro Gillick to prevent Mexican drug cartels from smuggling terrorists across the U.S. border.", 
         "poster": "https://image.tmdb.org/t/p/w1280/lhI5JJ50EPtnsMAIsTFU8y1RSke.jpg", 
+        "projected_opening": 15000000, 
+        "projected_total": 39000000, 
         "releaseDate": "2018-06-27", 
+        "rt_score": null, 
         "title": "Sicario: Day of the Soldado"
     }, 
     "402900": {
@@ -257,39 +275,14 @@
             }
         ], 
         "homepage": "https://www.warnerbros.com/oceans-8", 
-        "id": "402900", 
+        "id": 402900, 
         "overview": "Debbie Ocean, a criminal mastermind, gathers a crew of seven other female thieves to pull off the heist of the century at New York's annual Met Gala.", 
         "poster": "https://image.tmdb.org/t/p/w1280/7caaqQjTkovwoZsEOPzgHvkzOWB.jpg", 
+        "projected_opening": 42000000, 
+        "projected_total": 145000000, 
         "releaseDate": "2018-06-07", 
+        "rt_score": null, 
         "title": "Ocean's 8"
-    }, 
-    "417643": {
-        "budget": 0, 
-        "cast": [
-            "Natalie Dormer", 
-            "Emily Ratajkowski", 
-            "Ed Skrein", 
-            "Joely Richardson", 
-            "James Cosmo", 
-            "Neil Maskell", 
-            "Jan Bijvoet", 
-            "Amber Anderson", 
-            "Michael Bott", 
-            "Srbo Markovic"
-        ], 
-        "duration": 110, 
-        "genres": [
-            {
-                "id": 53, 
-                "name": "Thriller"
-            }
-        ], 
-        "homepage": null, 
-        "id": "417643", 
-        "overview": "A blind musician hears a murder committed in the apartment upstairs from hers that sends her down a dark path into London's gritty criminal underworld.", 
-        "poster": "https://image.tmdb.org/t/p/w1280/hLFm1ErciDfHpBi2vCYMkfzLwxh.jpg", 
-        "releaseDate": "2018-05-25", 
-        "title": "In Darkness"
     }, 
     "425148": {
         "budget": 0, 
@@ -313,10 +306,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "425148", 
+        "id": 425148, 
         "overview": "Max, a macho, solitary Rottweiler police dog is ordered to go undercover as a primped show dog in a prestigious Dog Show, along with his human partner, to avert a disaster from happening.", 
         "poster": "https://image.tmdb.org/t/p/w1280/5LLxjWWQUW77TAeiCPW7ZpXLAec.jpg", 
+        "projected_opening": 8000000, 
+        "projected_total": 25000000, 
         "releaseDate": "2018-05-10", 
+        "rt_score": null, 
         "title": "Show Dogs"
     }, 
     "429300": {
@@ -337,10 +333,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "429300", 
+        "id": 429300, 
         "overview": "A woman and her fianc\u00e9 find themselves caught in a hurricane after departing Tahiti by boat. She wakes up after being knocked out, only to discover him missing, and the elements threatening.", 
         "poster": "https://image.tmdb.org/t/p/w1280/5gLDeADaETvwQlQow5szlyuhLbj.jpg", 
+        "projected_opening": 10000000, 
+        "projected_total": 34000000, 
         "releaseDate": "2018-05-01", 
+        "rt_score": null, 
         "title": "Adrift"
     }, 
     "454283": {
@@ -365,10 +364,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "454283", 
+        "id": 454283, 
         "overview": "A daredevil designs and operates his own theme park with his friends.", 
         "poster": "https://image.tmdb.org/t/p/w1280/5lqJx0uNKrD1cEKgaqF1LBsLAoi.jpg", 
+        "projected_opening": 17000000, 
+        "projected_total": 42500000, 
         "releaseDate": "2018-03-22", 
+        "rt_score": null, 
         "title": "Action Point"
     }, 
     "455980": {
@@ -393,10 +395,13 @@
             }
         ], 
         "homepage": "http://www.tagthemovie.com", 
-        "id": "455980", 
+        "id": 455980, 
         "overview": "For one month every year, five highly competitive friends hit the ground running in a no-holds-barred game of tag they\u2019ve been playing since the first grade. This year, the game coincides with the wedding of their only undefeated player, which should finally make him an easy target. But he knows they\u2019re coming...and he\u2019s ready.", 
         "poster": "https://image.tmdb.org/t/p/w1280/vX5cucSBIYCjmaneTswsDT9SapY.jpg", 
+        "projected_opening": 13000000, 
+        "projected_total": 43000000, 
         "releaseDate": "2018-06-14", 
+        "rt_score": null, 
         "title": "Tag"
     }, 
     "474335": {
@@ -421,10 +426,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "474335", 
+        "id": 474335, 
         "overview": "Uncle Drew recruits a squad of older basketball players to return to the court to compete in a tournament.", 
         "poster": "https://image.tmdb.org/t/p/w1280/cDjAlFbpvjuxH4gFD02fqlyk6qL.jpg", 
+        "projected_opening": 16500000, 
+        "projected_total": 45000000, 
         "releaseDate": "2018-06-29", 
+        "rt_score": null, 
         "title": "Uncle Drew"
     }, 
     "497814": {
@@ -449,10 +457,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "497814", 
+        "id": 497814, 
         "overview": "A woman fights to protect her family during a home invasion at a house designed with impenetrable security.", 
         "poster": "https://image.tmdb.org/t/p/w1280/bKH7H4f5LPBQ5KOmHPcYtxCo7Od.jpg", 
+        "projected_opening": 13000000, 
+        "projected_total": 31000000, 
         "releaseDate": "2018-05-05", 
+        "rt_score": 37, 
         "title": "Breaking In"
     }, 
     "502682": {
@@ -481,10 +492,13 @@
             }
         ], 
         "homepage": null, 
-        "id": "502682", 
+        "id": 502682, 
         "overview": "Four lifelong friends have their lives forever changed after reading Fifty Shades of Grey in their monthly book club.", 
         "poster": "https://image.tmdb.org/t/p/w1280/zHGf3PWSqwt3X1UEIO2ythLwvKO.jpg", 
+        "projected_opening": 9500000, 
+        "projected_total": 30000000, 
         "releaseDate": "2018-05-18", 
+        "rt_score": null, 
         "title": "Book Club"
     }
 }

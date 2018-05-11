@@ -4,8 +4,6 @@ Now Playing
 299536: Avengers: Infinity War
 333339: Ready Player One
 370567: Sherlock Gnomes
-399174: Isle of Dogs
-400579: Tully
 419478: Midnight Sun
 427641: Rampage
 432301: Chappaquiddick
@@ -22,8 +20,7 @@ Upcoming
 383498: Deadpool 2
 399796: Life of the Party
 400535: Sicario: Day of the Soldado
-402900: Ocean’s 8
-417643: In Darkness
+402900: Ocean's 8
 425148: Show Dogs
 429300: Adrift
 454283: Action Point
