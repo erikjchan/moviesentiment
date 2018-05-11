@@ -8,8 +8,8 @@ import boto3
 from decimal import *
 import datetime
 
-db = boto3.resource('dynamodb', region_name='us-west-2', 
-    endpoint_url="http://localhost:8000", aws_access_key_id=settings.AWS_ACCESS_KEY,
+db = boto3.resource('dynamodb', region_name='us-east-2',
+    aws_access_key_id=settings.AWS_ACCESS_KEY,
     aws_secret_access_key=settings.AWS_ACCESS_SECRET)
 
 # db = dataset.connect(settings.CONNECTION_STRING)
@@ -27,7 +27,6 @@ class StreamListener(tweepy.StreamListener):
 
         name = status.user.screen_name
         followers = status.user.followers_count
-        id_str = status.id_str
         created = status.created_at.strftime('%m-%d-%Y %H:%M:%S')
 
         movie = ''
@@ -45,8 +44,7 @@ class StreamListener(tweepy.StreamListener):
            Item={
                 'text' : text,
                 'username' : name,
-                'user_followers' : followers,
-                'id_str' : id_str,
+                'followers' : followers,
                 'created' : created,
                 'polarity' : Decimal(str(sent.polarity)),
                 'subjectivity' : Decimal(str(sent.subjectivity)),
