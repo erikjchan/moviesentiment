@@ -1,9 +1,9 @@
 alembic==0.9.5
 autoenv==1.0.0
 backports.functools-lru-cache==1.5
+BeautifulSoup
 boto3==1.7.2
 botocore==1.10.2
-certifi==2017.7.27.1
 chardet==3.0.4
 click==6.7
 cycler==0.10.0
@@ -32,6 +32,7 @@ matplotlib==2.2.2
 numpy==1.14.2
 oauthlib==2.0.7
 opencv-python==3.4.0.12
+pandas
 pbr==4.0.1
 Pillow==5.0.0
 pyparsing==2.2.0
@@ -55,3 +56,6 @@ virtualenv==15.2.0
 virtualenv-clone==0.3.0
 virtualenvwrapper==4.8.2
 Werkzeug==0.12.2
+dataset
+psycopg2
+textblob
