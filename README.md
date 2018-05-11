@@ -12,7 +12,6 @@ Run:
 
 
 ## Notes
-ssh -i /Users/erikchan/Downloads/tweet_listener.pem ec2-user@ec2-18-191-87-151.us-east-2.compute.amazonaws.com
+ssh -i twitter/tweet_listener.pem ec2-user@ec2-18-191-87-151.us-east-2.compute.amazonaws.com
 
-
-scp -i /Users/erikchan/Downloads/tweet_listener.pem twitter/tweet_listener.py ec2-user@ec2-18-191-87-151.us-east-2.compute.amazonaws.com:tweet_listener.py
+scp -i twitter/tweet_listener.pem twitter/tweet_listener.py ec2-user@ec2-18-191-87-151.us-east-2.compute.amazonaws.com:tweet_listener.py

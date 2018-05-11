@@ -1,3 +1,4 @@
 *.pyc
 accessKeys.csv
 src/scrapers/practice
+tweet_listener.pem

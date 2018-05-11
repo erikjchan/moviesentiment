@@ -15,7 +15,7 @@ table = db.create_table(
             'KeyType': 'HASH'  #Partition key
         },
         {
-            'AttributeName': 'created',
+            'AttributeName': 'date',
             'KeyType': 'RANGE'  #Sort key
         }
     ],
@@ -25,7 +25,7 @@ table = db.create_table(
             'AttributeType': 'S'
         },
         {
-            'AttributeName': 'created',
+            'AttributeName': 'date',
             'AttributeType': 'S'
         }
     ],

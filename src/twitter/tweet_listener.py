@@ -22,12 +22,12 @@ class StreamListener(tweepy.StreamListener):
         blob = TextBlob(text)
         sent = blob.sentiment
 
-        if status.retweeted or status.user.followers_count < 100 or text[:2] == 'RT' or abs(sent.polarity) < 0.1:
+        if status.retweeted or status.user.followers_count < 200 or text[:2] == 'RT' or abs(sent.polarity) < 0.1:
             return
 
-        name = status.user.screen_name
+        date = status.created_at.strftime('%m-%d-%Y %H:%M:%S')
+        username = status.user.screen_name
         followers = status.user.followers_count
-        created = status.created_at.strftime('%m-%d-%Y %H:%M:%S')
 
         movie = ''
         found = False
@@ -42,13 +42,13 @@ class StreamListener(tweepy.StreamListener):
         table = db.Table('Tweets')
         response = table.put_item(
            Item={
+                'movie' : str(movie),
+                'date' : date,
                 'text' : text,
-                'username' : name,
+                'username' : username,
                 'followers' : followers,
-                'created' : created,
                 'polarity' : Decimal(str(sent.polarity)),
-                'subjectivity' : Decimal(str(sent.subjectivity)),
-                'movie' : str(movie)
+                'subjectivity' : Decimal(str(sent.subjectivity))
             }
         )
 
