@@ -8,25 +8,25 @@ db = boto3.resource('dynamodb', region_name='us-east-2',
     aws_secret_access_key=settings.AWS_ACCESS_SECRET)
 
 table = db.create_table(
-    TableName='NowPlaying',
+    TableName='Movies',
     KeySchema=[
         {
-            'AttributeName': 'movie',
+            'AttributeName': 'now_playing',
             'KeyType': 'HASH'  #Partition key
         },
         {
-            'AttributeName': 'date',
+            'AttributeName': 'id',
             'KeyType': 'RANGE'  #Sort key
         }
     ],
     AttributeDefinitions=[
         {
-            'AttributeName': 'movie',
+            'AttributeName': 'now_playing',
             'AttributeType': 'S'
         },
         {
-            'AttributeName': 'date',
-            'AttributeType': 'S'
+            'AttributeName': 'id',
+            'AttributeType': 'N'
         }
     ],
     ProvisionedThroughput={

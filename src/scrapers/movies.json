@@ -1,4 +1,36 @@
 {
+    "260513": {
+        "budget": 0, 
+        "cast": [
+            "Craig T. Nelson", 
+            "Holly Hunter", 
+            "Sarah Vowell", 
+            "Samuel L. Jackson", 
+            "Brad Bird", 
+            "Huck Milner", 
+            "John Ratzenberger", 
+            "Bob Odenkirk", 
+            "Jonathan Banks", 
+            "Isabella Rossellini"
+        ], 
+        "duration": 126, 
+        "genres": [
+            "Action", 
+            "Adventure", 
+            "Animation", 
+            "Family"
+        ], 
+        "homepage": null, 
+        "id": 260513, 
+        "now_playing": false, 
+        "overview": "Bob Parr (Mr. Incredible) is left to care for Jack-Jack while Helen (Elastigirl) is out saving the world.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/bcPvCjSVCOd3IJ7nxQEuNrzVPHc.jpg", 
+        "projected_opening": 110000000, 
+        "projected_total": 395000000, 
+        "release_date": "06-14-2018", 
+        "rt_score": null, 
+        "title": "Incredibles 2"
+    }, 
     "268896": {
         "box_office": {
             "1": 10329775, 
@@ -72,12 +104,13 @@
             "Adventure"
         ], 
         "homepage": "http://pacificrimmovie.com", 
-        "id": 268896, 
+        "id": "268896", 
+        "now_playing": true, 
         "overview": "It has been ten years since The Battle of the Breach and the oceans are still, but restless. Vindicated by the victory at the Breach, the Jaeger program has evolved into the most powerful global defense force in human history. The PPDC now calls upon the best and brightest to rise up and become the next generation of heroes when the Kaiju threat returns.", 
         "poster": "https://image.tmdb.org/t/p/w1280/v5HlmJK9bdeHxN2QhaFP1ivjX3U.jpg", 
         "projected_opening": 25000000, 
         "projected_total": 61000000, 
-        "releaseDate": "2018-03-21", 
+        "release_date": "03-21-2018", 
         "rt_score": 43, 
         "title": "Pacific Rim: Uprising"
     }, 
@@ -189,12 +222,13 @@
             "Science Fiction"
         ], 
         "homepage": "https://marvel.com/movies/movie/224/black_panther", 
-        "id": 284054, 
+        "id": "284054", 
+        "now_playing": true, 
         "overview": "King T'Challa returns home from America to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantel to join with girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.", 
         "poster": "https://image.tmdb.org/t/p/w1280/uxzzxijgPIY7slzFvMotPv8wjKA.jpg", 
         "projected_opening": 140000000, 
         "projected_total": 400000000, 
-        "releaseDate": "2018-02-13", 
+        "release_date": "02-13-2018", 
         "rt_score": 96, 
         "title": "Black Panther"
     }, 
@@ -236,12 +270,13 @@
             "Action"
         ], 
         "homepage": "http://marvel.com/movies/movie/223/avengers_infinity_war_part_1", 
-        "id": 299536, 
+        "id": "299536", 
+        "now_playing": true, 
         "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.", 
         "poster": "https://image.tmdb.org/t/p/w1280/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", 
         "projected_opening": 235000000, 
         "projected_total": 600000000, 
-        "releaseDate": "2018-04-25", 
+        "release_date": "04-25-2018", 
         "rt_score": 84, 
         "title": "Avengers: Infinity War"
     }, 
@@ -310,14 +345,79 @@
             "Action"
         ], 
         "homepage": "http://readyplayeronemovie.com", 
-        "id": 333339, 
+        "id": "333339", 
+        "now_playing": true, 
         "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.", 
         "poster": "https://image.tmdb.org/t/p/w1280/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg", 
         "projected_opening": 37000000, 
         "projected_total": 120000000, 
-        "releaseDate": "2018-03-28", 
+        "release_date": "03-28-2018", 
         "rt_score": 74, 
         "title": "Ready Player One"
+    }, 
+    "348350": {
+        "budget": 0, 
+        "cast": [
+            "Alden Ehrenreich", 
+            "Woody Harrelson", 
+            "Emilia Clarke", 
+            "Donald Glover", 
+            "Thandie Newton", 
+            "Phoebe Waller-Bridge", 
+            "Joonas Suotamo", 
+            "Paul Bettany", 
+            "Jon Favreau", 
+            "Jon Kasdan"
+        ], 
+        "duration": 135, 
+        "genres": [
+            "Action", 
+            "Adventure", 
+            "Science Fiction"
+        ], 
+        "homepage": "https://www.starwars.com/films/solo", 
+        "id": 348350, 
+        "now_playing": false, 
+        "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg", 
+        "projected_opening": 142000000, 
+        "projected_total": 390000000, 
+        "release_date": "05-24-2018", 
+        "rt_score": null, 
+        "title": "Solo: A Star Wars Story"
+    }, 
+    "351286": {
+        "budget": 260000000, 
+        "cast": [
+            "Chris Pratt", 
+            "Bryce Dallas Howard", 
+            "Rafe Spall", 
+            "Toby Jones", 
+            "Justice Smith", 
+            "Daniella Pineda", 
+            "Ted Levine", 
+            "Jeff Goldblum", 
+            "James Cromwell", 
+            "BD Wong"
+        ], 
+        "duration": 124, 
+        "genres": [
+            "Action", 
+            "Adventure", 
+            "Drama", 
+            "Science Fiction", 
+            "Thriller"
+        ], 
+        "homepage": "http://www.jurassicworld.com/", 
+        "id": 351286, 
+        "now_playing": false, 
+        "overview": "A volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar, where the creatures have freely roamed for several years after the demise of an animal theme park known as Jurassic World. Claire Dearing, the former park manager, has now founded the Dinosaur Protection Group, an organization dedicated to protecting the dinosaurs. To help with her cause, Claire has recruited Owen Grady, a former dinosaur trainer who worked at the park, to prevent the extinction of the dinosaurs once again.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg", 
+        "projected_opening": 135000000, 
+        "projected_total": 340000000, 
+        "release_date": "06-06-2018", 
+        "rt_score": null, 
+        "title": "Jurassic World: Fallen Kingdom"
     }, 
     "370567": {
         "box_office": {
@@ -394,14 +494,139 @@
             "Mystery"
         ], 
         "homepage": "http://www.sherlockgnomes.com/", 
-        "id": 370567, 
+        "id": "370567", 
+        "now_playing": true, 
         "overview": "Garden gnomes, Gnomeo & Juliet, recruit renown detective, Sherlock Gnomes, to investigate the mysterious disappearance of other garden ornaments.", 
         "poster": "https://image.tmdb.org/t/p/w1280/xHdf2wRgCSp9MrZRryikiZIH6jB.jpg", 
         "projected_opening": 16000000, 
         "projected_total": 58000000, 
-        "releaseDate": "2018-03-15", 
+        "release_date": "03-15-2018", 
         "rt_score": 23, 
         "title": "Sherlock Gnomes"
+    }, 
+    "383498": {
+        "budget": 0, 
+        "cast": [
+            "Ryan Reynolds", 
+            "Josh Brolin", 
+            "Zazie Beetz", 
+            "T.J. Miller", 
+            "Brianna Hildebrand", 
+            "Stefan Kapi\u010di\u0107", 
+            "Julian Dennison", 
+            "Morena Baccarin", 
+            "Shiori Kutsuna", 
+            "Jack Kesy"
+        ], 
+        "duration": 108, 
+        "genres": [
+            "Action", 
+            "Comedy", 
+            "Science Fiction"
+        ], 
+        "homepage": null, 
+        "id": 383498, 
+        "now_playing": false, 
+        "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/rLIIGGCdj6EGxZKY8aqIYBfsib6.jpg", 
+        "projected_opening": 130000000, 
+        "projected_total": 312000000, 
+        "release_date": "05-15-2018", 
+        "rt_score": null, 
+        "title": "Deadpool 2"
+    }, 
+    "399796": {
+        "budget": 0, 
+        "cast": [
+            "Melissa McCarthy", 
+            "Gillian Jacobs", 
+            "Maya Rudolph", 
+            "Julie Bowen", 
+            "Jacki Weaver", 
+            "Christina Aguilera", 
+            "Debby Ryan", 
+            "Chris Parnell", 
+            "Shannon Purser", 
+            "Adria Arjona"
+        ], 
+        "duration": 105, 
+        "genres": [
+            "Comedy"
+        ], 
+        "homepage": null, 
+        "id": 399796, 
+        "now_playing": false, 
+        "overview": "Dumped by her husband, longtime housewife Deanna turns regret into reset by going back to college. Winding up at the same school as her daughter, Deanna plunges headlong into the campus experience -- embracing the fun, the freedom and the frat boys.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/A2S4p7mRt0iyClSLSldfjzdYSIp.jpg", 
+        "projected_opening": 21000000, 
+        "projected_total": 54000000, 
+        "release_date": "05-11-2018", 
+        "rt_score": 38, 
+        "title": "Life of the Party"
+    }, 
+    "400535": {
+        "budget": 0, 
+        "cast": [
+            "Benicio del Toro", 
+            "Josh Brolin", 
+            "Catherine Keener", 
+            "Christopher Heyerdahl", 
+            "Jeffrey Donovan", 
+            "Isabela Moner", 
+            "Matthew Modine", 
+            "Ian Bohen", 
+            "Manuel Garcia-Rulfo", 
+            "Jake Picking"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Action", 
+            "Crime", 
+            "Drama", 
+            "Thriller"
+        ], 
+        "homepage": null, 
+        "id": 400535, 
+        "now_playing": false, 
+        "overview": "FBI agent Matt Graver teams up with operative Alejandro Gillick to prevent Mexican drug cartels from smuggling terrorists across the U.S. border.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/lhI5JJ50EPtnsMAIsTFU8y1RSke.jpg", 
+        "projected_opening": 15000000, 
+        "projected_total": 39000000, 
+        "release_date": "06-27-2018", 
+        "rt_score": null, 
+        "title": "Sicario: Day of the Soldado"
+    }, 
+    "402900": {
+        "budget": 0, 
+        "cast": [
+            "Sandra Bullock", 
+            "Cate Blanchett", 
+            "Anne Hathaway", 
+            "Helena Bonham Carter", 
+            "Rihanna", 
+            "Sarah Paulson", 
+            "Mindy Kaling", 
+            "Awkwafina", 
+            "Dakota Fanning", 
+            "Jaime King"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Crime", 
+            "Comedy", 
+            "Action", 
+            "Thriller"
+        ], 
+        "homepage": "https://www.warnerbros.com/oceans-8", 
+        "id": 402900, 
+        "now_playing": false, 
+        "overview": "Debbie Ocean, a criminal mastermind, gathers a crew of seven other female thieves to pull off the heist of the century at New York's annual Met Gala.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/7caaqQjTkovwoZsEOPzgHvkzOWB.jpg", 
+        "projected_opening": 42000000, 
+        "projected_total": 145000000, 
+        "release_date": "06-07-2018", 
+        "rt_score": null, 
+        "title": "Ocean's 8"
     }, 
     "419478": {
         "box_office": {
@@ -474,14 +699,44 @@
             "Drama"
         ], 
         "homepage": null, 
-        "id": 419478, 
+        "id": "419478", 
+        "now_playing": true, 
         "overview": "Katie, a 17-year-old, has been sheltered since childhood and confined to her house during the day by a rare disease that makes even the smallest amount of sunlight deadly. Fate intervenes when she meets Charlie and they embark on a summer romance.", 
         "poster": "https://image.tmdb.org/t/p/w1280/AchOrDSCMCAGiiY4QdBnNgvmWHq.jpg", 
         "projected_opening": 3750000, 
         "projected_total": 9400000, 
-        "releaseDate": "2018-03-22", 
+        "release_date": "03-22-2018", 
         "rt_score": 17, 
         "title": "Midnight Sun"
+    }, 
+    "425148": {
+        "budget": 0, 
+        "cast": [
+            "Stanley Tucci", 
+            "Natasha Lyonne", 
+            "Will Arnett", 
+            "Alan Cumming", 
+            "Gabriel Iglesias", 
+            "Shaquille O'Neal", 
+            "Ludacris", 
+            "Delia Sheppard", 
+            "Andy Beckwith", 
+            "Omar Chaparro"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Comedy"
+        ], 
+        "homepage": null, 
+        "id": 425148, 
+        "now_playing": false, 
+        "overview": "Max, a macho, solitary Rottweiler police dog is ordered to go undercover as a primped show dog in a prestigious Dog Show, along with his human partner, to avert a disaster from happening.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/5LLxjWWQUW77TAeiCPW7ZpXLAec.jpg", 
+        "projected_opening": 8000000, 
+        "projected_total": 25000000, 
+        "release_date": "05-10-2018", 
+        "rt_score": null, 
+        "title": "Show Dogs"
     }, 
     "427641": {
         "box_office": {
@@ -534,14 +789,40 @@
             "Science Fiction"
         ], 
         "homepage": "http://www.rampagethemovie.com", 
-        "id": 427641, 
+        "id": "427641", 
+        "now_playing": true, 
         "overview": "Primatologist Davis Okoye shares an unshakable bond with George, the extraordinarily intelligent, silverback gorilla who has been in his care since birth.  But a rogue genetic experiment gone awry mutates this gentle ape into a raging creature of enormous size.  To make matters worse, it\u2019s soon discovered there are other similarly altered animals.  As these newly created alpha predators tear across North America, destroying everything in their path, Okoye teams with a discredited genetic engineer to secure an antidote, fighting his way through an ever-changing battlefield, not only to halt a global catastrophe but to save the fearsome creature that was once his friend.", 
         "poster": "https://image.tmdb.org/t/p/w1280/30oXQKwibh0uANGMs0Sytw3uN22.jpg", 
         "projected_opening": 37000000, 
         "projected_total": 85000000, 
-        "releaseDate": "2018-04-12", 
+        "release_date": "04-12-2018", 
         "rt_score": 51, 
         "title": "Rampage"
+    }, 
+    "429300": {
+        "budget": 0, 
+        "cast": [
+            "Shailene Woodley", 
+            "Sam Claflin", 
+            "Luna Campbell", 
+            "Jeffrey Thomas", 
+            "Elizabeth Hawthorne", 
+            "Grace Palmer"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Drama"
+        ], 
+        "homepage": null, 
+        "id": 429300, 
+        "now_playing": false, 
+        "overview": "A woman and her fianc\u00e9 find themselves caught in a hurricane after departing Tahiti by boat. She wakes up after being knocked out, only to discover him missing, and the elements threatening.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/5gLDeADaETvwQlQow5szlyuhLbj.jpg", 
+        "projected_opening": 10000000, 
+        "projected_total": 34000000, 
+        "release_date": "05-01-2018", 
+        "rt_score": null, 
+        "title": "Adrift"
     }, 
     "432301": {
         "box_office": {
@@ -601,12 +882,13 @@
             "History"
         ], 
         "homepage": "http://chappaquiddickmovie.com/", 
-        "id": 432301, 
+        "id": "432301", 
+        "now_playing": true, 
         "overview": "Ted Kennedy's life and political career become derailed in the aftermath of a fatal car accident in 1969 that claims the life of a young campaign strategist, Mary Jo Kopechne.", 
         "poster": "https://image.tmdb.org/t/p/w1280/eHUYOblevtR82bCYnAgS1qSNdea.jpg", 
         "projected_opening": 3500000, 
         "projected_total": 7000000, 
-        "releaseDate": "2018-04-06", 
+        "release_date": "04-06-2018", 
         "rt_score": 79, 
         "title": "Chappaquiddick"
     }, 
@@ -666,12 +948,13 @@
             "Comedy"
         ], 
         "homepage": "https://www.blockersmovie.com/", 
-        "id": 437557, 
+        "id": "437557", 
+        "now_playing": true, 
         "overview": "When three parents discover their daughters\u2019 pact to lose their virginity at prom, they launch a covert one-night operation to stop the teens from sealing the deal.", 
         "poster": "https://image.tmdb.org/t/p/w1280/cx0LpfM6Drla8uzFfMT09uqKPRu.jpg", 
         "projected_opening": 16000000, 
         "projected_total": 54000000, 
-        "releaseDate": "2018-03-30", 
+        "release_date": "03-30-2018", 
         "rt_score": 83, 
         "title": "Blockers"
     }, 
@@ -733,14 +1016,44 @@
             "Science Fiction"
         ], 
         "homepage": "http://aquietplacemovie.com", 
-        "id": 447332, 
+        "id": "447332", 
+        "now_playing": true, 
         "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.", 
         "poster": "https://image.tmdb.org/t/p/w1280/nAU74GmpUk7t5iklEp3bufwDq4n.jpg", 
         "projected_opening": 27500000, 
         "projected_total": 81000000, 
-        "releaseDate": "2018-04-05", 
+        "release_date": "04-05-2018", 
         "rt_score": 95, 
         "title": "A Quiet Place"
+    }, 
+    "454283": {
+        "budget": 0, 
+        "cast": [
+            "Johnny Knoxville", 
+            "Aidan Whytock", 
+            "Joe Vaz", 
+            "Leon Clingman", 
+            "Chris Pontius", 
+            "Camilla Wolfson", 
+            "Matthew Peterson", 
+            "Luyanda Biggz Kabanyane", 
+            "Brigette Lundy-Paine", 
+            "Johnny Pemberton"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Comedy"
+        ], 
+        "homepage": null, 
+        "id": 454283, 
+        "now_playing": false, 
+        "overview": "A daredevil designs and operates his own theme park with his friends.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/5lqJx0uNKrD1cEKgaqF1LBsLAoi.jpg", 
+        "projected_opening": 17000000, 
+        "projected_total": 42500000, 
+        "release_date": "03-22-2018", 
+        "rt_score": null, 
+        "title": "Action Point"
     }, 
     "454619": {
         "box_office": {
@@ -771,14 +1084,44 @@
             "Comedy"
         ], 
         "homepage": null, 
-        "id": 454619, 
+        "id": "454619", 
+        "now_playing": true, 
         "overview": "A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee. A remake of the 1987 comedy.", 
         "poster": "https://image.tmdb.org/t/p/w1280/gaHknuun1VPPugkTsSfB8PejKVg.jpg", 
         "projected_opening": 14000000, 
         "projected_total": 39000000, 
-        "releaseDate": "2018-05-03", 
+        "release_date": "05-03-2018", 
         "rt_score": 30, 
         "title": "Overboard"
+    }, 
+    "455980": {
+        "budget": 0, 
+        "cast": [
+            "Ed Helms", 
+            "Jeremy Renner", 
+            "Jon Hamm", 
+            "Jake Johnson", 
+            "Hannibal Buress", 
+            "Annabelle Wallis", 
+            "Isla Fisher", 
+            "Rashida Jones", 
+            "Leslie Bibb", 
+            "Brian Dennehy"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Comedy"
+        ], 
+        "homepage": "http://www.tagthemovie.com", 
+        "id": 455980, 
+        "now_playing": false, 
+        "overview": "For one month every year, five highly competitive friends hit the ground running in a no-holds-barred game of tag they\u2019ve been playing since the first grade. This year, the game coincides with the wedding of their only undefeated player, which should finally make him an easy target. But he knows they\u2019re coming...and he\u2019s ready.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/vX5cucSBIYCjmaneTswsDT9SapY.jpg", 
+        "projected_opening": 13000000, 
+        "projected_total": 43000000, 
+        "release_date": "06-14-2018", 
+        "rt_score": null, 
+        "title": "Tag"
     }, 
     "460019": {
         "box_office": {
@@ -830,12 +1173,13 @@
             "Horror"
         ], 
         "homepage": "http://www.blumhousestruthordare.com", 
-        "id": 460019, 
+        "id": "460019", 
+        "now_playing": true, 
         "overview": "A harmless game of \u201cTruth or Dare\u201d among friends turns deadly when someone\u2014or something\u2014begins to punish those who tell a lie\u2014or refuse the dare.", 
         "poster": "https://image.tmdb.org/t/p/w1280/zbvziwnZa91AJD78Si0hUb5JP5X.jpg", 
         "projected_opening": 14000000, 
         "projected_total": 28000000, 
-        "releaseDate": "2018-04-12", 
+        "release_date": "04-12-2018", 
         "rt_score": 14, 
         "title": "Truth or Dare"
     }, 
@@ -881,13 +1225,102 @@
             "Comedy"
         ], 
         "homepage": "http://www.stxfilms.com/ifeelpretty/", 
-        "id": 460668, 
+        "id": "460668", 
+        "now_playing": true, 
         "overview": "A head injury causes a woman to develop an extraordinary amount of confidence and believe she's drop dead gorgeous.", 
         "poster": "https://image.tmdb.org/t/p/w1280/bZe6x2fKtwVDsAvZQ9fnIJznBrc.jpg", 
         "projected_opening": 17000000, 
         "projected_total": 57000000, 
-        "releaseDate": "2018-04-20", 
+        "release_date": "04-20-2018", 
         "rt_score": 33, 
         "title": "I Feel Pretty"
+    }, 
+    "474335": {
+        "budget": 0, 
+        "cast": [
+            "Kyrie Irving", 
+            "LilRel Howery", 
+            "Shaquille O'Neal", 
+            "Nick Kroll", 
+            "Tiffany Haddish", 
+            "Chris Webber", 
+            "Reggie Miller", 
+            "Nate Robinson", 
+            "Lisa Leslie", 
+            "Erica Ash"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Comedy"
+        ], 
+        "homepage": null, 
+        "id": 474335, 
+        "now_playing": false, 
+        "overview": "Uncle Drew recruits a squad of older basketball players to return to the court to compete in a tournament.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/cDjAlFbpvjuxH4gFD02fqlyk6qL.jpg", 
+        "projected_opening": 16500000, 
+        "projected_total": 45000000, 
+        "release_date": "06-29-2018", 
+        "rt_score": null, 
+        "title": "Uncle Drew"
+    }, 
+    "497814": {
+        "budget": 0, 
+        "cast": [
+            "Gabrielle Union", 
+            "Billy Burke", 
+            "Richard Cabral", 
+            "Ajiona Alexus", 
+            "Levi Meaden", 
+            "Seth Carr", 
+            "Mark Furze", 
+            "Jason George", 
+            "Christa Miller", 
+            "Damien Leake"
+        ], 
+        "duration": 98, 
+        "genres": [
+            "Thriller"
+        ], 
+        "homepage": null, 
+        "id": 497814, 
+        "now_playing": false, 
+        "overview": "A woman fights to protect her family during a home invasion at a house designed with impenetrable security.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/bKH7H4f5LPBQ5KOmHPcYtxCo7Od.jpg", 
+        "projected_opening": 13000000, 
+        "projected_total": 31000000, 
+        "release_date": "05-05-2018", 
+        "rt_score": 34, 
+        "title": "Breaking In"
+    }, 
+    "502682": {
+        "budget": 0, 
+        "cast": [
+            "Diane Keaton", 
+            "Jane Fonda", 
+            "Candice Bergen", 
+            "Mary Steenburgen", 
+            "Andy Garc\u00eda", 
+            "Craig T. Nelson", 
+            "Don Johnson", 
+            "Alicia Silverstone", 
+            "Mircea Monroe", 
+            "Richard Dreyfuss"
+        ], 
+        "duration": null, 
+        "genres": [
+            "Comedy", 
+            "Romance"
+        ], 
+        "homepage": null, 
+        "id": 502682, 
+        "now_playing": false, 
+        "overview": "Four lifelong friends have their lives forever changed after reading Fifty Shades of Grey in their monthly book club.", 
+        "poster": "https://image.tmdb.org/t/p/w1280/zHGf3PWSqwt3X1UEIO2ythLwvKO.jpg", 
+        "projected_opening": 9500000, 
+        "projected_total": 30000000, 
+        "release_date": "05-18-2018", 
+        "rt_score": null, 
+        "title": "Book Club"
     }
 }
