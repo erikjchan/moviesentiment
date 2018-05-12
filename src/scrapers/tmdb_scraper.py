@@ -1,5 +1,6 @@
-import requests
 import json
+import requests
+import time
 import urllib3
 
 request_url = 'https://api.themoviedb.org/3/'
@@ -22,14 +23,13 @@ for now_playing_id in now_playing_ids:
     movie['title'] = movie_details['title']
     movie['releaseDate'] = movie_details['release_date']
     movie['duration'] = movie_details['runtime']
-    movie['genres'] = movie_details['genres']
+    movie['genres'] = [genre["name"] for genre in movie_details['genres']]
     movie['overview'] = movie_details['overview']
     movie['homepage'] = movie_details['homepage']
     movie['poster'] = "https://image.tmdb.org/t/p/w1280" + movie_details['poster_path']
     movie['budget'] = movie_details['budget']
     credits_req = requests.get(url= request_url + 'movie/' + movie_id + '/credits?api_key=' + api_key);
     credits_json = credits_req.json()
-    import time
     time.sleep(0.5)
     cast = []
     for i in range(min(10, len(credits_json['cast']))):
@@ -40,7 +40,7 @@ for now_playing_id in now_playing_ids:
 with open('scrapers/now_playing.json', 'w') as outfile:
     json.dump(now_playing_dict, outfile, sort_keys=True, indent=4)
 
-
+################################################################################
 
 # Collect information from top 15 upcoming movies
 upcoming_dict = dict()
@@ -55,7 +55,7 @@ for upcoming_id in upcoming_ids:
     movie['title'] = movie_details['title']
     movie['releaseDate'] = movie_details['release_date']
     movie['duration'] = movie_details['runtime']
-    movie['genres'] = movie_details['genres']
+    movie['genres'] = [genre["name"] for genre in movie_details['genres']]
     movie['overview'] = movie_details['overview']
     movie['homepage'] = movie_details['homepage']
     if movie_details['poster_path']:
@@ -63,7 +63,6 @@ for upcoming_id in upcoming_ids:
     movie['budget'] = movie_details['budget']
     credits_req = requests.get(url= request_url + 'movie/' + movie_id + '/credits?api_key=' + api_key);
     credits_json = credits_req.json()
-    import time
     time.sleep(0.5)
     cast = []
     for i in range(min(10, len(credits_json['cast']))):

@@ -1,4 +1,5 @@
 import json
+
 now_playing_dict = json.load(open('scrapers/now_playing.json'))
 
 # 268896: Pacific Rim: Uprising
@@ -57,7 +58,7 @@ now_playing_dict["454619"]["projected_opening"] = 14000000
 now_playing_dict["454619"]["projected_total"] = 39000000
 
 # 460019: Truth or Dare
-now_playing_dict["460019"]["rt_score"] = 15
+now_playing_dict["460019"]["rt_score"] = 14
 now_playing_dict["460019"]["projected_opening"] = 14000000
 now_playing_dict["460019"]["projected_total"] = 28000000
 
@@ -95,7 +96,7 @@ upcoming_dict["383498"]["projected_opening"] = 130000000
 upcoming_dict["383498"]["projected_total"] = 312000000	
 
 # 399796: Life of the Party
-upcoming_dict["399796"]["rt_score"] = 35
+upcoming_dict["399796"]["rt_score"] = 38
 upcoming_dict["399796"]["projected_opening"] = 21000000
 upcoming_dict["399796"]["projected_total"] = 54000000
 
@@ -135,7 +136,7 @@ upcoming_dict["474335"]["projected_opening"] = 16500000
 upcoming_dict["474335"]["projected_total"] = 45000000
 
 # 497814: Breaking In
-upcoming_dict["497814"]["rt_score"] = 37
+upcoming_dict["497814"]["rt_score"] = 34
 upcoming_dict["497814"]["projected_opening"] = 13000000
 upcoming_dict["497814"]["projected_total"] = 31000000
 
