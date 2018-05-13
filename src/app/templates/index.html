@@ -6,7 +6,28 @@
   <p class="lead">Giving you a good feeling about movies you need to see!</p>
 </div>
 Movie Lookup
+Now Playing:
+<br>
+{% if now_playing_movies %}
+    {% for movie in now_playing_movies %}
+        <a href="/{{movie['id']}}">
+            <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:200px">
+        </a>
+    {% endfor %}
+{% endif %}
+<br>
+<br>
+Upcoming:
+<br>
+{% if upcoming_movies %}
+    {% for movie in upcoming_movies %}
+        <a href="/{{movie['id']}}">
+            <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:200px">
+        </a>
+    {% endfor %}
+{% endif %}
 
+<br>
 Now Playing Widget
 Upcoming Widget
 <br>
