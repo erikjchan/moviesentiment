@@ -47,18 +47,14 @@ def now_playing_search(path):
 def upcoming_search(path):
     movies_table = db.Table('Movies')
 
-    chosen_movie = movies_table.get_item(
+    movie = movies_table.get_item (
         Key={
             'now_playing' : 'False',
             'id': int(path)
         }
     )
+    movie = movie['Item']
 
-    print(chosen_movie['Item'])
-    print(path)
-    return render_template('upcoming.html')
-
-# @irsystem2.route('/<path:path>', methods=['GET'])
-# def movies_search(path):
-#     print("why")
-#     return render_template('about.html')
+    return render_template('upcoming.html',
+        movie = movie
+    )

@@ -2,7 +2,32 @@
 {% block title %}About{% endblock %}
 {% block body %}
 <div class="jumbotron">
-  <h1>Yoa</h1>
-  <p class="lead">You can learn more about my website here.</p>
+  	<img src="{{movie['poster']}}" alt="{{movie['title']}}" align="right" style="max-width:10%; max-height:100%;">
+  	<h1>{{movie['title']}}</h1>
+  	Upcoming
+  	<br>
+  	<br>
+  	<p class="lead">{{movie['overview']}}</p>
 </div>
+Genres: {% for g in movie['genres'][:-1] %}{{g}}, {% endfor %}{{movie['genres'][-1]}}
+<br>
+Rotten Tomatoes Score: {{movie['rt_score']}}
+<br>
+Release Date: {{movie['release_date']}}
+<br>
+Budget: {{movie['budget']}}
+<br>
+Cast: {% for c in movie['cast'][:-1] %}{{c}}, {% endfor %}{{movie['cast'][-1]}}
+<br>
+{% if movie['duration']: %}
+Duration: {{movie['duration']}} min
+<br>
+{% endif %}
+{% if movie['homepage']: %}
+Homepage: <a href="{{movie['homepage']}}">{{movie['homepage']}}</a>
+<br>
+{% endif %}
+Projected Total: {{movie['projected_total']}}
+<br>
+<br>
 {% endblock %}

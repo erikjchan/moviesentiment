@@ -1,11 +1,15 @@
 {% extends "base.html" %}
-{% block title %}About{% endblock %}
+{% block title %}{{movie['title']}}{% endblock %}
 {% block body %}
 <div class="jumbotron">
-  <h1>{{movie['title']}}</h1>
-  <p class="lead">{{movie['overview']}}</p>
+  	<img src="{{movie['poster']}}" alt="{{movie['title']}}" align="right" style="max-width:10%; max-height:100%;">
+  	<h1>{{movie['title']}}</h1>
+  	Now Playing
+  	<br>
+  	<br>
+  	<p class="lead">{{movie['overview']}}</p>
 </div>
-Genres: {{movie['genres']}}
+Genres: {% for g in movie['genres'][:-1] %}{{g}}, {% endfor %}{{movie['genres'][-1]}}
 <br>
 Box Office: {{movie['box_office']}}
 <br>
@@ -15,14 +19,17 @@ Release Date: {{movie['release_date']}}
 <br>
 Budget: {{movie['budget']}}
 <br>
-Cast: {{movie['cast']}}
+Cast: {% for c in movie['cast'][:-1] %}{{c}}, {% endfor %}{{movie['cast'][-1]}}
 <br>
-Poster: <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:20%">
-<br>
+{% if movie['duration']: %}
 Duration: {{movie['duration']}} min
+{% endif %}
 <br>
-Homepage: {{movie['homepage']}}
+{% if movie['homepage']: %}
+Homepage: <a href="{{movie['homepage']}}">{{movie['homepage']}}</a>
 <br>
+{% endif %}
 Projected Total: {{movie['projected_total']}}
-
+<br>
+<br>
 {% endblock %}
