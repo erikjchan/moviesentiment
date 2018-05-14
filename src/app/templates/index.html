@@ -5,30 +5,66 @@
   <h1>Movie Sentiment Aggregator</h1>
   <p class="lead">Giving you a good feeling about movies you need to see!</p>
 </div>
-Movie Lookup
-Now Playing:
-<br>
+<div>
+<h2>Now Playing</h2>
+<table style="width:100%">
 {% if now_playing_movies %}
+    {% set count = [0] %}
     {% for movie in now_playing_movies %}
-        <a href="/{{movie['id']}}">
-            <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:200px">
-        </a>
+        {% if count[0] % 5 == 0: %}
+        <tr>
+            <td>
+                <a href="/movies/{{movie['id']}}">
+                    <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
+                </a>
+            </td>
+        {% endif %}
+        {% if count[0] % 5 > 0: %}
+            <td>
+                <a href="movies/{{movie['id']}}">
+                    <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
+                </a>
+            </td>
+        {% endif %}
+        {% if count[0] % 5 == 4 or count[0] == now_playing_movies|length - 1: %}
+        </tr>
+        {% endif %}
+        {% if count.append(count.pop() + 1) %}{% endif %}
     {% endfor %}
 {% endif %}
+</table>
 <br>
 <br>
-Upcoming:
-<br>
+</div>
+<div>
+<h2>Coming Soon</h2>
+<table style="width:100%">
 {% if upcoming_movies %}
+    {% set count = [0] %}
     {% for movie in upcoming_movies %}
-        <a href="/{{movie['id']}}">
-            <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:200px">
-        </a>
+        {% if count[0] % 5 == 0: %}
+        <tr>
+            <td>
+                <a href="/movies/{{movie['id']}}">
+                    <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
+                </a>
+            </td>
+        {% endif %}
+        {% if count[0] % 5 > 0: %}
+            <td>
+                <a href="movies/{{movie['id']}}">
+                    <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
+                </a>
+            </td>
+        {% endif %}
+        {% if count[0] % 5 == 4 or count[0] == upcoming_movies|length - 1: %}
+        </tr>
+        {% endif %}
+        {% if count.append(count.pop() + 1) %}{% endif %}
     {% endfor %}
 {% endif %}
-
+</table>
+</div>
 <br>
-Now Playing Widget
-Upcoming Widget
 <br>
 {% endblock %}

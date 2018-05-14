@@ -14,12 +14,15 @@ def search():
     now_playing_movies = movies_table.query(
         KeyConditionExpression=Key('now_playing').eq('True')
     )
+    now_playing_list = sorted(now_playing_movies['Items'], key=lambda k: k['title']) 
+
 
     upcoming_movies = movies_table.query(
         KeyConditionExpression=Key('now_playing').eq('False')
     )
+    upcoming_list = sorted(upcoming_movies['Items'], key=lambda k: k['title']) 
 
     return render_template('index.html',
-        now_playing_movies = now_playing_movies['Items'],
-        upcoming_movies = upcoming_movies['Items']
+        now_playing_movies = now_playing_list,
+        upcoming_movies = upcoming_list
     )
