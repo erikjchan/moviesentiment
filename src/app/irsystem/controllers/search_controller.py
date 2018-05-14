@@ -1,5 +1,6 @@
 from . import *
 from boto3.dynamodb.conditions import Key
+from scipy.optimize import curve_fit
 import boto3
 import settings
 
@@ -38,9 +39,70 @@ def now_playing_search(path):
         }
     )
     movie = movie['Item']
+    box_office_dict = movie['box_office']
+
+    import numpy as np
+    opening = int(movie['projected_opening'])
+    total = int(movie['projected_total'])
+    print(opening)
+    print(total)
+    x = np.array([1, 3, 100])
+    y = np.array([1, opening, total])
+
+    def logFunc(x, a, b):
+        return a + b*np.log(x)
+
+    def logFit(x,y):
+        # cache some frequently reused terms
+        sumy = np.sum(y)
+        sumlogx = np.sum(np.log(x))
+
+        b = (x.size*np.sum(y*np.log(x)) - sumy*sumlogx)/(x.size*np.sum(np.log(x)**2) - sumlogx**2)
+        a = (sumy - b*sumlogx)/x.size
+
+        return a,b
+
+    xfit = np.linspace(0,100,num=100)
+    z = logFunc(xfit, *logFit(x,y))
+
+    box_office = []
+    for day in sorted(box_office_dict, key=lambda x: int(x)):
+        box_office.append([int(day), int(box_office_dict[day]), z[int(day) + 1]])
+
+    # Twitter
+
+    twitter_table = db.Table('Tweets')
+
+    tweets = twitter_table.query(
+        KeyConditionExpression=Key('movie').eq(path)
+    )
+    tweets = tweets['Items']
+    date_dict = dict()
+    date_dict['total_positive'] = 0
+    date_dict['total_negative'] = 0
+    for t in tweets:
+        date = t['date'][:10]
+        positive = (t['polarity'] > 0)
+        negative = (t['polarity'] < 0)
+        if date in date_dict:
+            date_dict[date]['count'] += 1
+            date_dict[date]['positive'] += positive
+            date_dict[date]['negative'] += negative
+        else:
+            date_dict[date] = dict()
+            date_dict[date]['count'] = 1
+            date_dict[date]['positive'] = positive
+            date_dict[date]['negative'] = negative
+        date_dict['total_positive'] += positive
+        date_dict['total_negative'] += negative
+    dates = []
+    for date in sorted(date_dict, key=lambda x: x):
+        dates.append([date, date_dict[date]])
 
     return render_template('now_playing.html',
-        movie = movie
+        movie = movie,
+        box_office = box_office,
+        dates = dates
     )
 
 @irsystem.route('upcoming/<path:path>', methods=['GET'])
