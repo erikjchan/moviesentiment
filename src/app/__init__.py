@@ -19,6 +19,14 @@ def index():
 def about_path():
   return render_template('about.html')
 
+@app.route('/now_playing/<path:path>', methods=['GET'])
+def now_playing_path(path):
+  	return render_template('now_playing.html')
+
+@app.route('/upcoming/<path:path>', methods=['GET'])
+def upcoming_path(path):
+  	return render_template('upcoming.html')
+
 @app.route('/<path:path>', methods=['GET'])
 def any_root_path(path):
   return render_template('index.html')

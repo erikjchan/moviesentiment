@@ -14,14 +14,14 @@
         {% if count[0] % 5 == 0: %}
         <tr>
             <td>
-                <a href="/movies/{{movie['id']}}">
+                <a href="/now_playing/{{movie['id']}}">
                     <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
                 </a>
             </td>
         {% endif %}
         {% if count[0] % 5 > 0: %}
             <td>
-                <a href="movies/{{movie['id']}}">
+                <a href="now_playing/{{movie['id']}}">
                     <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
                 </a>
             </td>
@@ -45,14 +45,14 @@
         {% if count[0] % 5 == 0: %}
         <tr>
             <td>
-                <a href="/movies/{{movie['id']}}">
+                <a href="/upcoming/{{movie['id']}}">
                     <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
                 </a>
             </td>
         {% endif %}
         {% if count[0] % 5 > 0: %}
             <td>
-                <a href="movies/{{movie['id']}}">
+                <a href="upcoming/{{movie['id']}}">
                     <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:100%">
                 </a>
             </td>

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h1>{{movie['title']}}</h1>
+  <p class="lead">{{movie['overview']}}</p>
+</div>
+Genres: {{movie['genres']}}
+<br>
+Box Office: {{movie['box_office']}}
+<br>
+Rotten Tomatoes Score: {{movie['rt_score']}}
+<br>
+Release Date: {{movie['release_date']}}
+<br>
+Budget: {{movie['budget']}}
+<br>
+Cast: {{movie['cast']}}
+<br>
+Poster: <img src="{{movie['poster']}}" alt="{{movie['title']}}" style="width:20%">
+<br>
+Duration: {{movie['duration']}} min
+<br>
+Homepage: {{movie['homepage']}}
+<br>
+Projected Total: {{movie['projected_total']}}
+
+{% endblock %}
