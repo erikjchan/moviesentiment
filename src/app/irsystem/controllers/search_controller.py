@@ -103,6 +103,20 @@ def now_playing_search(path):
     for day in sorted(box_office_dict, key=lambda x: int(x)):
         box_office.append([int(day), int(box_office_dict[day]), z[int(day) + 1], z_new[int(day) + 1]])
 
+    movie['actual_opening'] = addCommas(box_office[2][1])
+    movie['actual_total'] = addCommas(box_office[-1][1])
+    movie['opening_difference'] = round(100 * (box_office[2][1] - movie['projected_opening']) / movie['projected_opening'], 1)
+    if movie['opening_difference'] > 0:
+        movie['opening_difference'] = "+" + str(movie['opening_difference']) + "%"
+    else:
+        movie['opening_difference'] = str(movie['opening_difference']) + "%"
+    movie['total_difference'] = round(100 * (box_office[-1][1] - movie['projected_total']) / movie['projected_total'], 1)
+    if movie['total_difference'] > 0:
+        movie['total_difference'] = "+" + str(movie['total_difference']) + "%"
+    else:
+        movie['total_difference'] = str(movie['total_difference']) + "%"
+    movie['projected_opening'] = addCommas(movie['projected_opening'])
+    movie['projected_total'] = addCommas(movie['projected_total'])
     return render_template('now_playing.html',
         movie = movie,
         dates = dates,
@@ -178,11 +192,12 @@ def upcoming_search(path):
     xfit_new = np.linspace(0,100,num=100)
     z_new = logFunc(xfit, *logFit(x_new,y_new))
 
-
     box_office = []
     for day in range(99):
         box_office.append([day, z[day + 1], z_new[day + 1]])
 
+    movie['projected_opening'] = addCommas(movie['projected_opening'])
+    movie['projected_total'] = addCommas(movie['projected_total'])
     return render_template('upcoming.html',
         movie = movie,
         dates = dates,
@@ -202,3 +217,6 @@ def logFit(x,y):
     a = (sumy - b*sumlogx)/x.size
 
     return a,b
+
+def addCommas(x):
+    return "{:,}".format(x)

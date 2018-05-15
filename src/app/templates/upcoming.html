@@ -66,11 +66,17 @@ google.charts.setOnLoadCallback(drawCurveTypes);
       chart.draw(data, options);
     }
 </script>
-
-Projected Opening: {{movie['projected_opening']}}
 <br>
-Projected Total: {{movie['projected_total']}}
-<br>
+<table>
+  <tr>
+  <td><strong>Projected 3-Day Opening</strong></td>
+  <td>${{movie['projected_opening']}}</td>
+  </tr>
+    <tr>
+  <td><strong>Projected Total</strong></td>
+  <td>${{movie['projected_total']}}</td>
+  </tr>
+</table>
 <br>
 <h2>Twitter Activity</h2>
 <table style="width:100%">
