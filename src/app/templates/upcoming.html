@@ -36,6 +36,7 @@ table, th, td {
 {% endif %}
 <h2>Box Office</h2>
 <div id="chart_div"></div>
+{% if movie['rt_score']: %}
 <script>
 	google.charts.load('current', {packages: ['corechart', 'line']});
 google.charts.setOnLoadCallback(drawCurveTypes);
@@ -44,7 +45,7 @@ google.charts.setOnLoadCallback(drawCurveTypes);
       var data = new google.visualization.DataTable();
       data.addColumn('number', 'X');
       data.addColumn('number', 'Projected');
-      data.addColumn('number', 'Estimated from Twitter');
+      data.addColumn('number', 'Estimated from Twitter and {{movie['rt_score']}}% RT');
 
       data.addRows({{box_office}});
 
@@ -66,6 +67,39 @@ google.charts.setOnLoadCallback(drawCurveTypes);
       chart.draw(data, options);
     }
 </script>
+{% else: %}
+<script>
+  google.charts.load('current', {packages: ['corechart', 'line']});
+google.charts.setOnLoadCallback(drawCurveTypes);
+
+  function drawCurveTypes() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'X');
+      data.addColumn('number', 'Projected');
+      data.addColumn('number', 'Estimated from Twitter and 80% RT');
+      data.addColumn('number', 'Estimated from Twitter and 40% RT');
+
+      data.addRows({{box_office}});
+
+      var options = {
+        title: 'Cumulative Domestic Earnings Daily',
+        legend: 'bottom',
+        hAxis: {
+          title: 'Day'
+        },
+        vAxis: {
+          title: 'Revenue (USD)'
+        },
+        series: {
+          1: {curveType: 'function'}
+        }
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+</script>
+{% endif %}
 <br>
 <table>
   <tr>

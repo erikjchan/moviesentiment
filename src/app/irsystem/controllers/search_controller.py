@@ -3,6 +3,7 @@ from boto3.dynamodb.conditions import Key
 from scipy.optimize import curve_fit
 import numpy as np
 import boto3
+import linear_regression
 import settings
 
 db = boto3.resource('dynamodb', region_name='us-east-2',
@@ -92,8 +93,8 @@ def now_playing_search(path):
     xfit = np.linspace(0,100,num=100)
     z = logFunc(xfit, *logFit(x,y))
 
-    new_opening = opening * (0.8 + 0.4 * total_pos / total_both)
-    new_total = total * (0.8 + 0.4 * total_pos / total_both)
+    new_opening = opening * linear_regression.get_projected_multiplier(total_both)
+    new_total = total * linear_regression.get_rt_multiplier(float(movie['rt_score']))
     x_new = np.array([1, 3, 100])
     y_new = np.array([1, new_opening, new_total])
     xfit_new = np.linspace(0,100,num=100)
@@ -185,16 +186,33 @@ def upcoming_search(path):
     xfit = np.linspace(0,100,num=100)
     z = logFunc(xfit, *logFit(x,y))
 
-    new_opening = opening * (0.8 + 0.4 * total_pos / total_both)
-    new_total = total * (0.8 + 0.4 * total_pos / total_both)
-    x_new = np.array([1, 3, 100])
-    y_new = np.array([1, new_opening, new_total])
-    xfit_new = np.linspace(0,100,num=100)
-    z_new = logFunc(xfit, *logFit(x_new,y_new))
+    if movie['rt_score']:
+        new_opening = opening * linear_regression.get_projected_multiplier(total_both)
+        new_total = total * linear_regression.get_rt_multiplier(float(movie['rt_score']))
+        x_new = np.array([1, 3, 100])
+        y_new = np.array([1, new_opening, new_total])
+        z_new = logFunc(xfit, *logFit(x_new,y_new))
 
-    box_office = []
-    for day in range(99):
-        box_office.append([day, z[day + 1], z_new[day + 1]])
+        box_office = []
+        for day in range(99):
+            box_office.append([day, z[day + 1], z_new[day + 1]])
+
+
+    else:
+        new_opening = opening * linear_regression.get_projected_multiplier(total_both)
+        positive_total = total * linear_regression.get_rt_multiplier(80)
+        x_positive = np.array([1, 3, 100])
+        y_positive = np.array([1, new_opening, positive_total])
+        z_positive = logFunc(xfit, *logFit(x_positive,y_positive))
+
+        negative_total = total * linear_regression.get_rt_multiplier(40)
+        x_negative = np.array([1, 3, 100])
+        y_negative = np.array([1, new_opening, negative_total])
+        z_negative = logFunc(xfit, *logFit(x_negative,y_negative))
+
+        box_office = []
+        for day in range(99):
+            box_office.append([day, z[day + 1], z_positive[day + 1], z_negative[day + 1]])
 
     movie['projected_opening'] = addCommas(movie['projected_opening'])
     movie['projected_total'] = addCommas(movie['projected_total'])

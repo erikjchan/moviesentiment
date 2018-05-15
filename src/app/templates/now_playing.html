@@ -43,7 +43,7 @@ google.charts.setOnLoadCallback(drawCurveTypes);
       data.addColumn('number', 'X');
       data.addColumn('number', 'Actual');
       data.addColumn('number', 'Projected');
-      data.addColumn('number', 'Estimated from Twitter');
+      data.addColumn('number', 'Estimated from Twitter and {{movie['rt_score']}}% RT');
 
       data.addRows({{box_office}});
 
