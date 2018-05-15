@@ -1,0 +1,19 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: flask
+spec:
+  selector:
+    matchLabels:
+      app: flask
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: flask
+    spec:
+      containers:
+      - name: flask
+        image: erik20202/moviesentiment:v1
+        ports:
+        - containerPort: 5000
