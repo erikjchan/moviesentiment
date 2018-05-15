@@ -50,29 +50,37 @@ def now_playing_search(path):
     date_dict = dict()
     date_dict['total_positive'] = 0
     date_dict['total_negative'] = 0
+    date_dict['total_positive_reach'] = 0
+    date_dict['total_negative_reach'] = 0
     for t in tweets_list:
         date = t['date'][:10]
         positive = (t['polarity'] > 0)
         negative = (t['polarity'] < 0)
+        followers = t['followers']
         if date in date_dict:
             date_dict[date]['count'] += 1
+            date_dict[date]['count_reach'] += followers
             date_dict[date]['positive'] += positive
             date_dict[date]['negative'] += negative
+            date_dict[date]['positive_reach'] += positive * followers
+            date_dict[date]['negative_reach'] += negative * followers
         else:
             date_dict[date] = dict()
             date_dict[date]['count'] = 1
+            date_dict[date]['count_reach'] = followers
             date_dict[date]['positive'] = positive
             date_dict[date]['negative'] = negative
+            date_dict[date]['positive_reach'] = positive * followers
+            date_dict[date]['negative_reach'] = negative * followers
         date_dict['total_positive'] += positive
         date_dict['total_negative'] += negative
+        date_dict['total_positive_reach'] += positive * followers
+        date_dict['total_negative_reach'] += negative * followers
     dates = []
     for date in sorted(date_dict, key=lambda x: x):
         dates.append([date, date_dict[date]])
 
-
-    total_pos = date_dict['total_positive']
-    total_neg = date_dict['total_negative']
-    total_both = date_dict['total_positive'] + date_dict['total_negative']
+    total_both_reach = date_dict['total_positive_reach'] + date_dict['total_negative_reach']
 
     # Movies Table
     movies_table = db.Table('Movies')
@@ -93,7 +101,7 @@ def now_playing_search(path):
     xfit = np.linspace(0,100,num=100)
     z = logFunc(xfit, *logFit(x,y))
 
-    new_opening = opening * linear_regression.get_projected_multiplier(total_both)
+    new_opening = opening * linear_regression.get_projected_multiplier(float(total_both_reach))
     new_total = total * linear_regression.get_rt_multiplier(float(movie['rt_score']))
     x_new = np.array([1, 3, 100])
     y_new = np.array([1, new_opening, new_total])
@@ -144,29 +152,37 @@ def upcoming_search(path):
     date_dict = dict()
     date_dict['total_positive'] = 0
     date_dict['total_negative'] = 0
+    date_dict['total_positive_reach'] = 0
+    date_dict['total_negative_reach'] = 0
     for t in tweets_list:
         date = t['date'][:10]
         positive = (t['polarity'] > 0)
         negative = (t['polarity'] < 0)
+        followers = t['followers']
         if date in date_dict:
             date_dict[date]['count'] += 1
+            date_dict[date]['count_reach'] += followers
             date_dict[date]['positive'] += positive
             date_dict[date]['negative'] += negative
+            date_dict[date]['positive_reach'] += positive * followers
+            date_dict[date]['negative_reach'] += negative * followers
         else:
             date_dict[date] = dict()
             date_dict[date]['count'] = 1
+            date_dict[date]['count_reach'] = followers
             date_dict[date]['positive'] = positive
             date_dict[date]['negative'] = negative
+            date_dict[date]['positive_reach'] = positive * followers
+            date_dict[date]['negative_reach'] = negative * followers
         date_dict['total_positive'] += positive
         date_dict['total_negative'] += negative
+        date_dict['total_positive_reach'] += positive * followers
+        date_dict['total_negative_reach'] += negative * followers
     dates = []
     for date in sorted(date_dict, key=lambda x: x):
         dates.append([date, date_dict[date]])
 
-
-    total_pos = date_dict['total_positive']
-    total_neg = date_dict['total_negative']
-    total_both = date_dict['total_positive'] + date_dict['total_negative']
+    total_both_reach = date_dict['total_positive_reach'] + date_dict['total_negative_reach']
 
     # Movies Table
     movies_table = db.Table('Movies')
@@ -187,7 +203,7 @@ def upcoming_search(path):
     z = logFunc(xfit, *logFit(x,y))
 
     if movie['rt_score']:
-        new_opening = opening * linear_regression.get_projected_multiplier(total_both)
+        new_opening = opening * linear_regression.get_projected_multiplier(float(total_both_reach))
         new_total = total * linear_regression.get_rt_multiplier(float(movie['rt_score']))
         x_new = np.array([1, 3, 100])
         y_new = np.array([1, new_opening, new_total])
@@ -199,7 +215,7 @@ def upcoming_search(path):
 
 
     else:
-        new_opening = opening * linear_regression.get_projected_multiplier(total_both)
+        new_opening = opening * linear_regression.get_projected_multiplier(float(total_both_reach))
         positive_total = total * linear_regression.get_rt_multiplier(80)
         x_positive = np.array([1, 3, 100])
         y_positive = np.array([1, new_opening, positive_total])
@@ -286,9 +302,9 @@ def statistics_search():
 
     upcoming = []
     for movie in upcoming_dict:
+        upcoming_dict[movie]['projected_total'] = addCommas(upcoming_dict[movie]['projected_total'])
         upcoming.append(upcoming_dict[movie])
     upcoming = sorted(upcoming, key=lambda k: int(k['count']), reverse=True)
-
 
     return render_template('statistics.html',
         now_playing = now_playing,

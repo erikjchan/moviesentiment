@@ -90,23 +90,35 @@ google.charts.setOnLoadCallback(drawCurveTypes);
 {% if dates: %}
 		<tr>
 	    	<th>Date</th>
-	    	<th>Positive</th> 
-	    	<th>Negative</th>
-	    	<th>Total</th>
+	    	<th>Positive Tweets</th> 
+        <th>Negative Tweets</th>
+        <th>Total Tweets</th>
+        <th>Positive Reach</th>
+        <th>Negative Reach</th>
+        <th>Total Reach</th>
 	  	</tr>
-    {% for date in dates[:-2] %}
+    {% for date in dates[:-4] %}
         <tr>
             <td>
                 {{date[0]}}
             </td>
             <td>
-                {{date[1]['positive']}}
+                {{date[1]['positive']|int}}
             </td>
             <td>
-                {{date[1]['negative']}}
+                {{date[1]['negative']|int}}
             </td>
             <td>
-                {{date[1]['count']}}
+                {{date[1]['count']|int}}
+            </td>
+            <td>
+                {{date[1]['positive_reach']|int}}
+            </td>
+            <td>
+                {{date[1]['negative_reach']|int}}
+            </td>
+            <td>
+                {{date[1]['count_reach']|int}}
             </td>
         </tr>
     {% endfor %}
@@ -115,13 +127,22 @@ google.charts.setOnLoadCallback(drawCurveTypes);
                 Total
             </td>
             <td>
-                {{dates[-1][1]}}
+                {{dates[-2][1]|int}}
             </td>
             <td>
-                {{dates[-2][1]}}
+                {{dates[-4][1]|int}}
             </td>
             <td>
-                {{dates[-1][1] + dates[-2][1]}}
+                {{dates[-2][1]|int + dates[-4][1]|int}}
+            </td>
+            <td>
+                {{dates[-1][1]|int}}
+            </td>
+            <td>
+                {{dates[-3][1]|int}}
+            </td>
+            <td>
+                {{dates[-1][1]|int + dates[-3][1]|int}}
             </td>
         </tr>
 {% endif %}

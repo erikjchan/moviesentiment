@@ -115,13 +115,16 @@ google.charts.setOnLoadCallback(drawCurveTypes);
 <h2>Twitter Activity</h2>
 <table style="width:100%">
 {% if dates: %}
-		<tr>
-	    	<th>Date</th>
-	    	<th>Positive Tweets</th> 
-	    	<th>Negative Tweets</th>
-	    	<th>Total</th>
-	  	</tr>
-    {% for date in dates[:-2] %}
+    <tr>
+        <th>Date</th>
+        <th>Positive Tweets</th> 
+        <th>Negative Tweets</th>
+        <th>Total Tweets</th>
+        <th>Positive Reach</th>
+        <th>Negative Reach</th>
+        <th>Total Reach</th>
+      </tr>
+    {% for date in dates[:-4] %}
         <tr>
             <td>
                 {{date[0]}}
@@ -135,20 +138,38 @@ google.charts.setOnLoadCallback(drawCurveTypes);
             <td>
                 {{date[1]['count']|int}}
             </td>
-        </tr>
-    {% endfor %}
-    	<tr>
             <td>
-                Total
+                {{date[1]['positive_reach']|int}}
             </td>
             <td>
-                {{dates[-1][1]|int}}
+                {{date[1]['negative_reach']|int}}
+            </td>
+            <td>
+                {{date[1]['count_reach']|int}}
+            </td>
+        </tr>
+    {% endfor %}
+      <tr>
+            <td>
+                Total
             </td>
             <td>
                 {{dates[-2][1]|int}}
             </td>
             <td>
-                {{dates[-1][1]|int + dates[-2][1]|int}}
+                {{dates[-4][1]|int}}
+            </td>
+            <td>
+                {{dates[-2][1]|int + dates[-4][1]|int}}
+            </td>
+            <td>
+                {{dates[-1][1]|int}}
+            </td>
+            <td>
+                {{dates[-3][1]|int}}
+            </td>
+            <td>
+                {{dates[-1][1]|int + dates[-3][1]|int}}
             </td>
         </tr>
 {% endif %}

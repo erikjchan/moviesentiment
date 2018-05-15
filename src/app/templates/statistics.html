@@ -16,15 +16,17 @@ table, th, td {
 {% if now_playing: %}
     <tr>
         <th>Movie</th>
-        <th>Positive</th> 
-        <th>Negative</th>
-        <th>Total</th>
+        <th>Release Date</th> 
+        <th>Positive Tweets</th> 
+        <th>Negative Tweets</th>
+        <th>Total Tweets</th>
         <th>Rotten Tomatoes</th>
         <th>Total Gross</th>
     </tr>
     {% for movie in now_playing: %}
     <tr>
         <td><a href="/now_playing/{{movie['id']}}">{{movie['title']}}</a></td>
+        <td>{{movie['release_date']}}</td> 
         <td>{{movie['positive']}}</td> 
         <td>{{movie['negative']}}</td>
         <td>{{movie['count']}}</td>
@@ -40,16 +42,20 @@ table, th, td {
 {% if upcoming: %}
     <tr>
         <th>Movie</th>
-        <th>Positive</th> 
-        <th>Negative</th>
-        <th>Total</th>
+        <th>Release Date</th> 
+        <th>Positive Tweets</th> 
+        <th>Negative Tweets</th>
+        <th>Total Tweets</th>
+        <th>Projected Total Gross</th>
     </tr>
     {% for movie in upcoming: %}
     <tr>
         <td><a href="/upcoming/{{movie['id']}}">{{movie['title']}}</a></td>
+        <td>{{movie['release_date']}}</td> 
         <td>{{movie['positive']}}</td> 
         <td>{{movie['negative']}}</td>
         <td>{{movie['count']}}</td>
+        <td>${{movie['projected_total']}}</td>
     </tr>
     {% endfor %}
 {% endif %}
