@@ -15,9 +15,9 @@ app.register_blueprint(irsystem)
 def index():
   return render_template('index.html')
 
-@app.route('/about', methods=['GET'])
-def about_path():
-  return render_template('about.html')
+@app.route('/statistics', methods=['GET'])
+def statistics_path():
+  return render_template('statistics.html')
 
 @app.route('/now_playing/<path:path>', methods=['GET'])
 def now_playing_path(path):

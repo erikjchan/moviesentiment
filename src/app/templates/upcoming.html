@@ -30,8 +30,10 @@ table, th, td {
 <strong>Homepage:</strong> <a href="{{movie['homepage']}}">{{movie['homepage']}}</a>
 <br>
 {% endif %}
+{% if movie['rt_score']: %}
 <strong>Rotten Tomatoes Score:</strong> {{movie['rt_score']}}%
 <br>
+{% endif %}
 <h2>Box Office</h2>
 <div id="chart_div"></div>
 <script>
