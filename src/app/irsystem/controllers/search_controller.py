@@ -204,6 +204,78 @@ def upcoming_search(path):
         box_office = box_office,
     )
 
+@irsystem.route('statistics', methods=['GET'])
+def statistics_search():
+    # Movies Table
+    movies_table = db.Table('Movies')
+
+    now_playing_movies = movies_table.query(
+        KeyConditionExpression=Key('now_playing').eq('True')
+    )
+    now_playing_dict = dict()
+    for movie in now_playing_movies['Items']:
+        movie_id = str(movie['id'])
+        now_playing_dict[movie_id] = movie
+        now_playing_dict[movie_id]['count'] = 1
+        now_playing_dict[movie_id]['positive'] = 0
+        now_playing_dict[movie_id]['negative'] = 0
+
+
+    upcoming_movies = movies_table.query(
+        KeyConditionExpression=Key('now_playing').eq('False')
+    )
+    upcoming_dict = dict()
+    for movie in upcoming_movies['Items']:
+        movie_id = str(movie['id'])
+        upcoming_dict[movie_id] = movie
+        upcoming_dict[movie_id]['count'] = 0
+        upcoming_dict[movie_id]['positive'] = 0
+        upcoming_dict[movie_id]['negative'] = 0
+    
+    # Tweets Table
+    twitter_table = db.Table('Tweets')
+
+    tweet_list = []
+    tweets = twitter_table.scan(
+    )
+    tweet_list += tweets['Items']
+    while 'LastEvaluatedKey' in tweets:
+        tweets = twitter_table.scan(
+            ExclusiveStartKey=tweets['LastEvaluatedKey']
+        )
+        tweet_list += tweets['Items']
+
+    for t in tweet_list:
+        movie = str(t['movie'])
+        positive = (t['polarity'] > 0)
+        negative = (t['polarity'] < 0)
+        if movie in now_playing_dict:
+            now_playing_dict[movie]['count'] += 1
+            now_playing_dict[movie]['positive'] += positive
+            now_playing_dict[movie]['negative'] += negative
+        elif movie in upcoming_dict:
+            upcoming_dict[movie]['count'] += 1
+            upcoming_dict[movie]['positive'] += positive
+            upcoming_dict[movie]['negative'] += negative
+    
+    now_playing = []
+    for movie in now_playing_dict:
+        box_office_dict = now_playing_dict[movie]['box_office']
+        last_day = sorted(box_office_dict, key=lambda x: int(x),reverse=True)[0]
+        now_playing_dict[movie]['actual_total'] = addCommas(box_office_dict[last_day])
+        now_playing.append(now_playing_dict[movie])
+    now_playing = sorted(now_playing, key=lambda k: int(k['count']), reverse=True)
+
+    upcoming = []
+    for movie in upcoming_dict:
+        upcoming.append(upcoming_dict[movie])
+    upcoming = sorted(upcoming, key=lambda k: int(k['count']), reverse=True)
+
+
+    return render_template('statistics.html',
+        now_playing = now_playing,
+        upcoming = upcoming
+    )
 
 def logFunc(x, a, b):
     return a + b*np.log(x)

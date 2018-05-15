@@ -1,8 +1,58 @@
 {% extends "base.html" %}
-{% block title %}About{% endblock %}
+{% block title %}Statistics{% endblock %}
 {% block body %}
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
 <div class="jumbotron">
   <h1>Statistics</h1>
-  <p class="lead">View some tables with information.</p>
+  <p class="lead">View the Twitter statistics over the last week.</p>
 </div>
+<h2>Now Playing</h2>
+<table style="width:100%">
+{% if now_playing: %}
+    <tr>
+        <th>Movie</th>
+        <th>Positive</th> 
+        <th>Negative</th>
+        <th>Total</th>
+        <th>Rotten Tomatoes</th>
+        <th>Total Gross</th>
+    </tr>
+    {% for movie in now_playing: %}
+    <tr>
+        <td><a href="/now_playing/{{movie['id']}}">{{movie['title']}}</a></td>
+        <td>{{movie['positive']}}</td> 
+        <td>{{movie['negative']}}</td>
+        <td>{{movie['count']}}</td>
+        <td>{{movie['rt_score']}}%</td>
+        <td>${{movie['actual_total']}}</td>
+    </tr>
+    {% endfor %}
+{% endif %}
+</table>
+<br>
+<h2>Upcoming</h2>
+<table style="width:100%">
+{% if upcoming: %}
+    <tr>
+        <th>Movie</th>
+        <th>Positive</th> 
+        <th>Negative</th>
+        <th>Total</th>
+    </tr>
+    {% for movie in upcoming: %}
+    <tr>
+        <td><a href="/upcoming/{{movie['id']}}">{{movie['title']}}</a></td>
+        <td>{{movie['positive']}}</td> 
+        <td>{{movie['negative']}}</td>
+        <td>{{movie['count']}}</td>
+    </tr>
+    {% endfor %}
+{% endif %}
+</table>
+<br>
 {% endblock %}
