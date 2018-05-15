@@ -1,33 +1,115 @@
 {% extends "base.html" %}
-{% block title %}About{% endblock %}
+{% block title %}{{movie['title']}}{% endblock %}
 {% block body %}
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
 <div class="jumbotron">
   	<img src="{{movie['poster']}}" alt="{{movie['title']}}" align="right" style="max-width:10%; max-height:100%;">
   	<h1>{{movie['title']}}</h1>
-  	Upcoming
+  	Now Playing
   	<br>
   	<br>
   	<p class="lead">{{movie['overview']}}</p>
 </div>
-Genres: {% for g in movie['genres'][:-1] %}{{g}}, {% endfor %}{{movie['genres'][-1]}}
+<h2>General Information</h2>
+<strong>Release Date:</strong> {{movie['release_date']}}
 <br>
-Rotten Tomatoes Score: {{movie['rt_score']}}
-<br>
-Release Date: {{movie['release_date']}}
-<br>
-Budget: {{movie['budget']}}
-<br>
-Cast: {% for c in movie['cast'][:-1] %}{{c}}, {% endfor %}{{movie['cast'][-1]}}
+<strong>Genres:</strong> {% for g in movie['genres'][:-1] %}{{g}}, {% endfor %}{{movie['genres'][-1]}}
 <br>
 {% if movie['duration']: %}
-Duration: {{movie['duration']}} min
+<strong>Duration:</strong> {{movie['duration']}} min
 <br>
 {% endif %}
+<strong>Cast:</strong> {% for c in movie['cast'][:-1] %}{{c}}, {% endfor %}{{movie['cast'][-1]}}
+<br>
 {% if movie['homepage']: %}
-Homepage: <a href="{{movie['homepage']}}">{{movie['homepage']}}</a>
+<strong>Homepage:</strong> <a href="{{movie['homepage']}}">{{movie['homepage']}}</a>
 <br>
 {% endif %}
+<strong>Rotten Tomatoes Score:</strong> {{movie['rt_score']}}%
+<br>
+<h2>Box Office</h2>
+<div id="chart_div"></div>
+<script>
+	google.charts.load('current', {packages: ['corechart', 'line']});
+google.charts.setOnLoadCallback(drawCurveTypes);
+
+	function drawCurveTypes() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'X');
+      data.addColumn('number', 'Projected');
+      data.addColumn('number', 'Estimated from Twitter');
+
+      data.addRows({{box_office}});
+
+      var options = {
+        title: 'Cumulative Domestic Earnings Daily',
+        legend: 'bottom',
+        hAxis: {
+          title: 'Day'
+        },
+        vAxis: {
+          title: 'Revenue (USD)'
+        },
+        series: {
+          1: {curveType: 'function'}
+        }
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+</script>
+
+Projected Opening: {{movie['projected_opening']}}
+<br>
 Projected Total: {{movie['projected_total']}}
 <br>
+<br>
+<h2>Twitter Activity</h2>
+<table style="width:100%">
+{% if dates: %}
+		<tr>
+	    	<th>Date</th>
+	    	<th>Positive Tweets</th> 
+	    	<th>Negative Tweets</th>
+	    	<th>Total</th>
+	  	</tr>
+    {% for date in dates[:-2] %}
+        <tr>
+            <td>
+                {{date[0]}}
+            </td>
+            <td>
+                {{date[1]['positive']|int}}
+            </td>
+            <td>
+                {{date[1]['negative']|int}}
+            </td>
+            <td>
+                {{date[1]['count']|int}}
+            </td>
+        </tr>
+    {% endfor %}
+    	<tr>
+            <td>
+                Total
+            </td>
+            <td>
+                {{dates[-1][1]|int}}
+            </td>
+            <td>
+                {{dates[-2][1]|int}}
+            </td>
+            <td>
+                {{dates[-1][1]|int + dates[-2][1]|int}}
+            </td>
+        </tr>
+{% endif %}
+</table>
 <br>
 {% endblock %}

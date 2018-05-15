@@ -43,15 +43,18 @@ google.charts.setOnLoadCallback(drawCurveTypes);
       data.addColumn('number', 'X');
       data.addColumn('number', 'Actual');
       data.addColumn('number', 'Projected');
+      data.addColumn('number', 'Estimated from Twitter');
 
       data.addRows({{box_office}});
 
       var options = {
+        title: 'Cumulative Domestic Earnings Daily',
+        legend: 'bottom',
         hAxis: {
           title: 'Day'
         },
         vAxis: {
-          title: 'Revenue'
+          title: 'Revenue (USD)'
         },
         series: {
           1: {curveType: 'function'}
@@ -59,12 +62,11 @@ google.charts.setOnLoadCallback(drawCurveTypes);
       };
 
       var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
       chart.draw(data, options);
     }
 </script>
 
-Budget: {{movie['budget']}}
-<br>
 Projected Opening: {{movie['projected_opening']}}
 <br>
 Projected Total: {{movie['projected_total']}}
