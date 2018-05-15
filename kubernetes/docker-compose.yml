@@ -1,5 +1,5 @@
 flask:
-    image: erik20202/moviesentiment:v1
+    image: erik20202/moviesentiment:v4
     ports:
       - "5000:5000"
     environment:
