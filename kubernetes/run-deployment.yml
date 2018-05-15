@@ -14,6 +14,9 @@ spec:
     spec:
       containers:
       - name: flask
-        image: erik20202/moviesentiment:v1
+        image: erik20202/moviesentiment:v2
+        env:
+        - name: APP_SETTINGS
+          value: config.DevelopmentConfig
         ports:
         - containerPort: 5000
