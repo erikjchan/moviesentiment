@@ -29,7 +29,7 @@ MarkupSafe==1.0
 marshmallow==2.13.6
 marshmallow-sqlalchemy==0.13.1
 matplotlib==2.2.2
-numpy==1.14.2
+numpy==1.22.0
 oauthlib==2.0.7
 opencv-python==3.4.0.12
 pandas
